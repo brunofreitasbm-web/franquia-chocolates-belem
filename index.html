@@ -11,7 +11,7 @@
 <meta property="og:locale" content="pt_BR">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -21,16 +21,16 @@
   <div class="container header__inner">
     <a href="#topo" class="logo">
       <span class="logo__mark">R</span>
-      <span class="logo__text">Repasse de Operações<small>Chocolates e Presentes — Pará</small></span>
+      <span class="logo__text">Repasse de Operações<small>Chocolates e presentes — Pará</small></span>
     </a>
     <nav class="nav" id="nav">
       <a href="#historia">Por que estou repassando</a>
-      <a href="#unidades">As Duas Unidades</a>
-      <a href="#como-funciona">Como Funciona</a>
+      <a href="#unidades">As duas unidades</a>
+      <a href="#como-funciona">Como funciona</a>
       <a href="#faq">Dúvidas</a>
     </nav>
     <a href="#lead-form" class="btn btn--primary btn--nav">Quero saber mais</a>
-    <button class="nav__toggle" id="navToggle" aria-label="Abrir menu">
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </div>
@@ -41,23 +41,23 @@
   <div class="container hero__grid">
     <div class="hero__copy">
       <span class="badge">Repasse direto do franqueado, sem intermediários</span>
-      <h1>Estou repassando duas operações já estruturadas no ramo de chocolates e presentes</h1>
-      <p class="hero__subtitle">Uma em Belém/PA, outra em Ananindeua/PA. Equipe treinada, processo de fornecimento definido e sistema de vendas em operação — você não abre um negócio do zero, assume um que já funciona.</p>
+      <h1>Estou repassando duas operações estruturadas no ramo de chocolates e presentes</h1>
+      <p class="hero__subtitle">Uma em Belém, outra em Ananindeua. Equipe treinada, fornecimento definido e vendas em operação: você assume um negócio que já funciona, não abre um do zero.</p>
       <div class="hero__cta">
         <a href="#unidades" class="btn btn--primary btn--lg">Ver as duas oportunidades</a>
         <a href="#lead-form" class="btn btn--ghost btn--lg">Cadastrar meu interesse</a>
       </div>
-      <p class="hero__note">Processo formal de transferência, com due diligence completa e acesso ao DRE de cada unidade após triagem e assinatura de termo de confidencialidade.</p>
+      <p class="hero__note">Processo formal de transferência, com due diligence e acesso ao DRE de cada unidade após triagem e termo de confidencialidade.</p>
     </div>
     <div class="hero__art" aria-hidden="true">
-      <div class="hero__shape hero__shape--1"></div>
-      <div class="hero__shape hero__shape--2"></div>
       <div class="hero__card">
-        <div class="hero__card-row"><span>Perfil</span><span>Chocolates e presentes</span></div>
-        <div class="hero__card-row"><span>Unidades</span><span>2 operações</span></div>
-        <div class="hero__card-row"><span>Equipe</span><span>Treinada e em atividade</span></div>
-        <div class="hero__card-row"><span>Início da operação</span><span>Imediato</span></div>
-        <div class="hero__card-row"><span>Processo</span><span>Formal, com due diligence</span></div>
+        <p class="hero__card-title">Resumo do repasse</p>
+        <div class="hero__card-row"><span>Segmento</span><i></i><span>Chocolates e presentes</span></div>
+        <div class="hero__card-row"><span>Unidades</span><i></i><span>2 operações</span></div>
+        <div class="hero__card-row"><span>Equipe</span><i></i><span>Treinada, em atividade</span></div>
+        <div class="hero__card-row"><span>Início</span><i></i><span>Imediato</span></div>
+        <div class="hero__card-row"><span>Processo</span><i></i><span>Formal, com due diligence</span></div>
+        <p class="hero__card-foot">Dados completos apenas após triagem e termo de confidencialidade.</p>
       </div>
     </div>
   </div>
@@ -66,36 +66,41 @@
 <!-- ===================== POR QUE ESTOU REPASSANDO ===================== -->
 <section class="section" id="historia">
   <div class="container">
-    <span class="eyebrow">Um recado direto do franqueado</span>
     <h2>Por que estou repassando estas duas operações</h2>
     <div class="intro__grid">
       <div>
-        <p>Sou franqueado dessas duas lojas e decidi concentrar meus próximos passos em outras frentes. Por isso estou repassando as operações diretamente — sem loja anunciando "à venda", sem terceiros no meio, sou eu que respondo pelo processo do início ao fim.</p>
-        <p>As duas unidades continuam funcionando normalmente enquanto o repasse é conduzido. Isso significa que quem assume entra em algo que já está rodando: equipe formada, fornecedor definido e clientes ativos — não um ponto vazio para reformar e recomeçar.</p>
+        <p>Sou o franqueado das duas lojas e decidi concentrar meus próximos passos em outras frentes. Por isso o repasse é direto: sem placa de "vende-se", sem terceiros no meio. Sou eu que respondo pelo processo do início ao fim.</p>
+        <p>As unidades seguem funcionando normalmente durante o repasse. Quem assume entra em algo que já roda: equipe formada, fornecedor definido e clientes ativos, não um ponto vazio para reformar.</p>
         <p class="intro__signature">— O franqueado atual
           <small>Repassando diretamente, sem intermediários</small>
         </p>
       </div>
       <div class="intro__points">
         <div class="intro__point">
-          <span class="intro__point-icon">🧾</span>
+          <span class="intro__point-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3h8a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/><path d="M9.5 8h5M9.5 12h5M9.5 16h3"/></svg>
+          </span>
           <div>
             <h3>Processo formal, não uma venda informal</h3>
-            <p>A transferência passa por aprovação da própria rede franqueadora nacional — isso protege quem compra e quem repassa.</p>
+            <p>A transferência passa por aprovação da rede franqueadora nacional. Isso protege quem compra e quem repassa.</p>
           </div>
         </div>
         <div class="intro__point">
-          <span class="intro__point-icon">🔒</span>
+          <span class="intro__point-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="10.5" width="14" height="9.5" rx="2"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/><path d="M12 14.5v2"/></svg>
+          </span>
           <div>
             <h3>Dados sensíveis só após triagem</h3>
-            <p>Nome comercial, endereço exato e o DRE completo de cada unidade são compartilhados apenas com quem assina o termo de confidencialidade.</p>
+            <p>Nome comercial, endereço exato e DRE completo são compartilhados apenas com quem assina o termo de confidencialidade.</p>
           </div>
         </div>
         <div class="intro__point">
-          <span class="intro__point-icon">🤝</span>
+          <span class="intro__point-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="15" r="4.5"/><path d="M11.2 11.8 20 3M16.5 6.5l3 3M14 9l2 2"/></svg>
+          </span>
           <div>
             <h3>Estrutura pronta, início imediato</h3>
-            <p>Equipe treinada, processo de pedidos e estoque já rodando, sem necessidade de obra ou montagem inicial.</p>
+            <p>Equipe treinada, pedidos e estoque rodando, sem obra ou montagem inicial.</p>
           </div>
         </div>
       </div>
@@ -106,12 +111,11 @@
 <!-- ===================== FICHAS DAS UNIDADES ===================== -->
 <section class="section section--muted" id="unidades">
   <div class="container">
-    <span class="eyebrow">As duas oportunidades</span>
     <h2>Escolha a operação que combina com seu perfil</h2>
-    <p class="section__lead">Cada unidade tem uma realidade diferente — por isso os dados abaixo são específicos de cada uma, sem misturar números. Escolha a que fizer mais sentido para o seu perfil de investimento.</p>
+    <p class="section__lead">Cada unidade tem uma realidade própria: os dados abaixo são específicos de cada uma, sem misturar números.</p>
 
     <div class="units">
-      <!-- FICHA 1 — MARAMBAIA -->
+      <!-- FICHA 1 — LOJA DE RUA -->
       <article class="unit-card">
         <span class="unit-card__tag">Ponto de rua consolidado</span>
         <h3>Loja de rua com clientela ativa</h3>
@@ -133,6 +137,7 @@
             <span class="unit-card__stat-label">Ticket médio</span>
           </div>
         </div>
+        <p class="unit-card__fit">Para quem busca uma operação principal, de referência no bairro, com ticket mais alto e clientela fidelizada.</p>
         <div class="unit-card__price-row">
           <span class="unit-card__price-label">Valor de aquisição</span>
           <span class="unit-card__price-value">R$ 195.000</span>
@@ -140,7 +145,7 @@
         <a href="#lead-form" class="btn btn--primary btn--block" data-unit="Ponto de rua (Belém)">Quero saber mais sobre esta unidade</a>
       </article>
 
-      <!-- FICHA 2 — MÁRIO COVAS -->
+      <!-- FICHA 2 — SUPERMERCADO -->
       <article class="unit-card unit-card--alt">
         <span class="unit-card__tag">Ponto de fluxo garantido</span>
         <h3>Operação dentro de supermercado</h3>
@@ -149,7 +154,7 @@
           <li>Tráfego não depende de fachada ou marketing de localização própria</li>
           <li>Despesa fixa mais baixa entre as unidades: R$ 10.782/mês</li>
           <li>Sem acordo de renegociação em aberto com a franqueadora</li>
-          <li>Equipe formada, processo e fornecedor definidos — sem obra necessária</li>
+          <li>Equipe formada, processo e fornecedor definidos, sem obra necessária</li>
           <li>Picos fortes em Páscoa (~11x o dia comum) e Dia dos Namorados (~1,84x)</li>
         </ul>
         <div class="unit-card__stats">
@@ -162,6 +167,7 @@
             <span class="unit-card__stat-label">Ticket médio</span>
           </div>
         </div>
+        <p class="unit-card__fit">Para quem valoriza despesa fixa baixa e fluxo garantido, aceita ticket menor, ou quer um segundo negócio ao lado de uma operação parecida.</p>
         <div class="unit-card__price-row">
           <span class="unit-card__price-label">Valor de aquisição</span>
           <span class="unit-card__price-value">Sob consulta</span>
@@ -172,69 +178,59 @@
   </div>
 </section>
 
-<!-- ===================== PERFIL DO CANDIDATO ===================== -->
-<section class="section">
-  <div class="container">
-    <span class="eyebrow eyebrow--olive">Qual combina com você</span>
-    <h2>Dois perfis de operação, dois perfis de investidor</h2>
-    <div class="persona">
-      <div class="persona__card">
-        <h3>Ponto de rua (Belém)</h3>
-        <p>Combina com quem busca um negócio de rua consolidado, com ticket médio mais alto e clientela já fidelizada — perfil mais próximo de quem quer uma operação principal, de referência no bairro.</p>
-      </div>
-      <div class="persona__card">
-        <h3>Ponto em supermercado (Ananindeua)</h3>
-        <p>Combina com quem tem mais tolerância a operação de menor ticket e maior volume potencial, valoriza despesa fixa baixa e um ponto de fluxo garantido — pode ser também um segundo negócio para quem já opera algo parecido.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ===================== COMO FUNCIONA ===================== -->
 <section class="section section--dark" id="como-funciona">
-  <div class="container">
-    <span class="eyebrow eyebrow--light">Processo</span>
+  <div class="container container--narrow">
     <h2>Como funciona o repasse</h2>
     <ol class="steps">
       <li class="steps__item">
-        <span class="steps__number">1</span>
-        <h3>Cadastro e triagem</h3>
-        <p>Você preenche o formulário indicando qual unidade te interessa e seu perfil de investidor.</p>
+        <span class="steps__number" aria-hidden="true">1</span>
+        <div>
+          <h3>Cadastro e triagem</h3>
+          <p>Você preenche o formulário indicando a unidade que te interessa e seu perfil de investidor.</p>
+        </div>
       </li>
       <li class="steps__item">
-        <span class="steps__number">2</span>
-        <h3>Conversa e confidencialidade</h3>
-        <p>Conversamos diretamente e você assina um termo de confidencialidade simples.</p>
+        <span class="steps__number" aria-hidden="true">2</span>
+        <div>
+          <h3>Conversa e confidencialidade</h3>
+          <p>Conversamos diretamente e você assina um termo de confidencialidade simples.</p>
+        </div>
       </li>
       <li class="steps__item">
-        <span class="steps__number">3</span>
-        <h3>Acesso ao DRE completo</h3>
-        <p>Você recebe os números reais e detalhados da unidade escolhida, sem surpresas.</p>
+        <span class="steps__number" aria-hidden="true">3</span>
+        <div>
+          <h3>Acesso ao DRE completo</h3>
+          <p>Você recebe os números reais e detalhados da unidade escolhida, sem surpresas.</p>
+        </div>
       </li>
       <li class="steps__item">
-        <span class="steps__number">4</span>
-        <h3>Processo junto à franqueadora</h3>
-        <p>A rede franqueadora aprova formalmente o novo responsável pela unidade.</p>
+        <span class="steps__number" aria-hidden="true">4</span>
+        <div>
+          <h3>Processo junto à franqueadora</h3>
+          <p>A rede franqueadora aprova formalmente o novo responsável pela unidade.</p>
+        </div>
       </li>
       <li class="steps__item">
-        <span class="steps__number">5</span>
-        <h3>Transferência</h3>
-        <p>Formalização e transição de operação, com a loja já funcionando normalmente.</p>
+        <span class="steps__number" aria-hidden="true">5</span>
+        <div>
+          <h3>Transferência</h3>
+          <p>Formalização e transição de operação, com a loja funcionando normalmente.</p>
+        </div>
       </li>
     </ol>
-    <p class="steps__foot">Este é um processo formal de transferência dentro de uma rede de franquia nacional. Quem compra passa por aprovação da própria rede antes da conclusão — isso protege as duas partes.</p>
+    <p class="steps__foot">Este é um processo formal dentro de uma rede de franquia nacional: quem compra passa por aprovação da própria rede antes da conclusão: isso protege as duas partes.</p>
   </div>
 </section>
 
 <!-- ===================== FAQ ===================== -->
 <section class="section" id="faq">
   <div class="container container--narrow">
-    <span class="eyebrow">Dúvidas frequentes</span>
     <h2>Perguntas frequentes</h2>
     <div class="faq">
       <details class="faq__item">
         <summary>Por que não aparece o nome da marca ou o endereço exato?</summary>
-        <p>Enquanto o repasse é conduzido, as duas lojas continuam operando normalmente. Nome comercial, marca e endereço exato são compartilhados apenas com quem assina o termo de confidencialidade — isso protege a operação, a equipe e os clientes atuais.</p>
+        <p>As duas lojas continuam operando normalmente enquanto o repasse é conduzido. Nome comercial, marca e endereço exato são compartilhados apenas com quem assina o termo de confidencialidade. Isso protege a operação, a equipe e os clientes atuais.</p>
       </details>
       <details class="faq__item">
         <summary>Qual o valor total do investimento?</summary>
@@ -242,19 +238,19 @@
       </details>
       <details class="faq__item">
         <summary>O que está incluso no repasse?</summary>
-        <p>Ponto comercial em operação, equipamentos, equipe treinada, processo de fornecimento e estoque já definidos, e o histórico de vendas da unidade. Detalhes contratuais completos são apresentados após a triagem.</p>
+        <p>Ponto comercial em operação, equipamentos, equipe treinada, processo de fornecimento e estoque definidos, e o histórico de vendas da unidade. Detalhes contratuais completos são apresentados após a triagem.</p>
       </details>
       <details class="faq__item">
         <summary>Preciso ter experiência no ramo alimentício ou em franquias?</summary>
-        <p>Não é obrigatório. O formulário pergunta sobre sua experiência prévia justamente para eu poder te orientar melhor sobre qual das duas unidades combina mais com seu perfil.</p>
+        <p>Não é obrigatório. O formulário pergunta sobre sua experiência prévia justamente para eu poder te orientar sobre qual das duas unidades combina mais com seu perfil.</p>
       </details>
       <details class="faq__item">
         <summary>Como funciona a aprovação da franqueadora?</summary>
-        <p>Depois da triagem e da conversa inicial, o processo segue formalmente para aprovação do novo responsável junto à rede franqueadora nacional — é uma etapa padrão de qualquer transferência de franquia.</p>
+        <p>Depois da triagem e da conversa inicial, o processo segue formalmente para aprovação do novo responsável junto à rede franqueadora nacional, etapa padrão de qualquer transferência de franquia.</p>
       </details>
       <details class="faq__item">
         <summary>Em quanto tempo consigo assumir a operação?</summary>
-        <p>Como são operações em funcionamento, a transição é rápida depois da aprovação — a loja já está pronta para operar, sem necessidade de montagem inicial.</p>
+        <p>Como são operações em funcionamento, a transição é rápida depois da aprovação: a loja já está pronta para operar, sem montagem inicial.</p>
       </details>
     </div>
   </div>
@@ -263,9 +259,8 @@
 <!-- ===================== FORMULÁRIO DE TRIAGEM ===================== -->
 <section class="section section--form" id="lead-form">
   <div class="container container--narrow">
-    <span class="eyebrow eyebrow--light">Cadastro de interesse</span>
     <h2>Cadastre seu interesse e vamos conversar</h2>
-    <p class="section__lead section__lead--light">Preencha os dados abaixo. Este formulário é o único canal de contato nesta fase — vou revisar suas respostas pessoalmente e retornar para o próximo passo.</p>
+    <p class="section__lead section__lead--light">Este formulário é o único canal de contato nesta fase. Vou revisar suas respostas pessoalmente e retornar com o próximo passo.</p>
 
     <form name="repasse-operacoes" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="form" id="leadForm">
       <input type="hidden" name="form-name" value="repasse-operacoes">
@@ -283,17 +278,17 @@
 
       <div class="form__row">
         <label for="nome">Nome completo *</label>
-        <input type="text" id="nome" name="nome" required>
+        <input type="text" id="nome" name="nome" autocomplete="name" required>
       </div>
 
       <div class="form__row form__row--split">
         <div>
           <label for="email">E-mail *</label>
-          <input type="email" id="email" name="email" placeholder="nome@exemplo.com" required>
+          <input type="email" id="email" name="email" placeholder="nome@exemplo.com" autocomplete="email" required>
         </div>
         <div>
           <label for="telefone">Telefone / WhatsApp *</label>
-          <input type="tel" id="telefone" name="telefone" placeholder="(91) 90000-0000" required>
+          <input type="tel" id="telefone" name="telefone" placeholder="(91) 90000-0000" autocomplete="tel" required>
         </div>
       </div>
 
@@ -353,12 +348,13 @@
         <label for="confidencialidade">Aceito assinar termo de confidencialidade antes de receber os dados financeiros completos. *</label>
       </div>
 
-      <button type="submit" class="btn btn--primary btn--lg btn--block">Enviar e agendar conversa</button>
-      <p class="form__privacy">Seus dados são usados apenas para este processo de triagem e não são compartilhados com terceiros.</p>
+      <button type="submit" class="btn btn--primary btn--lg btn--block" id="submitBtn">Enviar e agendar conversa</button>
+      <p class="form__error" id="formError" hidden>Não foi possível enviar agora. Verifique sua conexão e tente novamente.</p>
+      <p class="form__privacy">Seus dados são usados apenas neste processo de triagem e não são compartilhados com terceiros.</p>
     </form>
 
     <div class="form__success" id="formSuccess" hidden>
-      <h3>Recebi seu cadastro 🍫</h3>
+      <h3>Cadastro recebido</h3>
       <p>Vou revisar suas respostas e retornar em até 2 dias úteis com o próximo passo.</p>
     </div>
   </div>
@@ -369,7 +365,7 @@
   <div class="container footer__inner">
     <div class="footer__brand">
       <span class="logo__mark">R</span>
-      <p>Repasse direto do franqueado — duas operações de chocolates e presentes em Belém/PA e Ananindeua/PA. As informações completas são compartilhadas apenas com candidatos qualificados, mediante triagem prévia e assinatura de termo de confidencialidade.</p>
+      <p>Repasse direto do franqueado — duas operações de chocolates e presentes em Belém e Ananindeua/PA. Informações completas apenas mediante triagem e termo de confidencialidade.</p>
     </div>
     <div class="footer__contact">
       <h4>Contato</h4>

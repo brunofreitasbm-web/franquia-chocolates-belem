@@ -70,7 +70,7 @@ Definida em `css/style.css` como custom properties no `:root`.
 
 - Um único CTA visualmente dominante por seção. Nunca dois CTAs de mesmo peso competindo.
 - Contraste mínimo 4.5:1 em todas as combinações de cor.
-- **Fotografia:** nenhuma foto real de loja, fachada, produto embalado ou equipe pode entrar na página. O hero usa uma composição abstrata em CSS (formas circulares + card de resumo) justamente para não depender de imagem. Se for adicionar foto no futuro, ela precisa ser genérica, sem logotipo visível de nenhuma marca — inclusive de terceiros, para não sugerir parceria não autorizada.
+- **Fotografia:** nenhuma foto real de loja, fachada, produto embalado ou equipe pode entrar na página. O hero usa uma "ficha resumo" em CSS (card estilo documento, com linhas pontilhadas) justamente para não depender de imagem. As formas circulares decorativas da versão anterior foram removidas. Se for adicionar foto no futuro, ela precisa ser genérica, sem logotipo visível de nenhuma marca — inclusive de terceiros, para não sugerir parceria não autorizada.
 
 ---
 
@@ -82,17 +82,18 @@ Definida em `css/style.css` como custom properties no `:root`.
 | 2 | Hero | `#topo` | Proposta central + CTA duplo + card de resumo |
 | 3 | Por que estou repassando | `#historia` | Bloco pessoal do franqueado + 3 pontos de confiança |
 | 4 | As duas unidades | `#unidades` | Fichas independentes, dados por unidade |
-| 5 | Perfis de investidor | — | Ajuda o candidato a se auto-selecionar |
-| 6 | Como funciona | `#como-funciona` | Timeline de 5 etapas do processo |
-| 7 | FAQ | `#faq` | 6 perguntas, incluindo a do anonimato |
-| 8 | Formulário de triagem | `#lead-form` | Conversão — único ponto de entrada |
-| 9 | Rodapé | — | Aviso de confidencialidade |
+| 5 | Como funciona | `#como-funciona` | Timeline vertical de 5 etapas do processo |
+| 6 | FAQ | `#faq` | 6 perguntas, incluindo a do anonimato |
+| 7 | Formulário de triagem | `#lead-form` | Conversão — único ponto de entrada |
+| 8 | Rodapé | — | Aviso de confidencialidade |
+
+A antiga seção "Perfis de investidor" foi fundida nas fichas: cada unidade traz uma linha "para quem faz sentido" antes do preço. Mesma função de auto-seleção, uma seção a menos de rolagem.
 
 ### 4.1 Copy do hero
 
 - **Badge:** "Repasse direto do franqueado, sem intermediários"
-- **Headline:** "Estou repassando duas operações já estruturadas no ramo de chocolates e presentes"
-- **Subheadline:** "Uma em Belém/PA, outra em Ananindeua/PA. Equipe treinada, processo de fornecimento definido e sistema de vendas em operação — você não abre um negócio do zero, assume um que já funciona."
+- **Headline:** "Estou repassando duas operações estruturadas no ramo de chocolates e presentes"
+- **Subheadline:** "Uma em Belém, outra em Ananindeua. Equipe treinada, fornecimento definido e vendas em operação: você assume um negócio que já funciona, não abre um do zero."
 - **CTA primário:** "Ver as duas oportunidades" → `#unidades`
 - **CTA secundário:** "Cadastrar meu interesse" → `#lead-form`
 
@@ -102,9 +103,9 @@ A headline nomeia o setor (chocolates e presentes) sem citar marca, já filtrand
 
 Duas fichas de estrutura idêntica e conteúdo específico. **Elas nunca compartilham números** — misturar os dados faria um candidato assumir que os indicadores de uma valem para a outra, o que seria falso.
 
-Distinção visual: borda superior terracota na unidade de rua, oliva na unidade de supermercado.
+Distinção visual: chip de categoria preenchido — terracota na unidade de rua, oliva na de supermercado. (A borda superior colorida foi removida; era um padrão genérico de card.)
 
-Cada ficha traz: tag de categoria, título, localização genérica, 5 bullets de ponto forte, bloco de 2 indicadores, valor de aquisição e CTA próprio. O CTA carrega `data-unit`, que pré-seleciona a unidade no formulário via JS.
+Cada ficha traz: tag de categoria, título, localização genérica, 5 bullets de ponto forte, bloco de 2 indicadores, linha de perfil ideal ("para quem faz sentido"), valor de aquisição e CTA próprio. O CTA carrega `data-unit`, que pré-seleciona a unidade no formulário via JS.
 
 **CTA repetido nas duas** ("Quero saber mais sobre esta unidade") em vez de "Comprar" ou "Fechar negócio" — mantém o funil consistente com o objetivo real, que é gerar interesse qualificado, não fechar venda na página.
 
@@ -140,7 +141,7 @@ Texto de apoio: "Este é um processo formal de transferência dentro de uma rede
 
 **Botão:** "Enviar e agendar conversa" — nomeia o próximo passo em vez de "Enviar" solto, o que reduz a ansiedade de "e agora?".
 
-**Confirmação:** "Recebi seu cadastro 🍫 / Vou revisar suas respostas e retornar em até 2 dias úteis com o próximo passo." Define prazo concreto em vez de "em breve" vago, e não promete algo que a operação não consegue cumprir.
+**Confirmação:** "Cadastro recebido / Vou revisar suas respostas e retornar em até 2 dias úteis com o próximo passo." Define prazo concreto em vez de "em breve" vago, e não promete algo que a operação não consegue cumprir.
 
 Os dois checkboxes obrigatórios existem para registrar ciência antes de qualquer envio de dado sensível — são parte do controle do funil, não formalidade.
 
