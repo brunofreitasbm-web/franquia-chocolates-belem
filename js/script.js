@@ -1,6 +1,3 @@
-// PENDENTE: trocar pelo número oficial de WhatsApp (formato 55DDDNUMERO, só dígitos)
-const WHATSAPP_NUMBER = "PENDENTE";
-
 document.getElementById("year").textContent = new Date().getFullYear();
 
 const navToggle = document.getElementById("navToggle");
@@ -10,10 +7,13 @@ nav?.querySelectorAll("a").forEach((link) =>
   link.addEventListener("click", () => nav.classList.remove("is-open"))
 );
 
-const whatsappFallback = document.getElementById("whatsappFallback");
-if (whatsappFallback && WHATSAPP_NUMBER !== "PENDENTE") {
-  whatsappFallback.href = `https://wa.me/${WHATSAPP_NUMBER}`;
-}
+// Pre-select the unit dropdown when a card's CTA is clicked.
+const unidadeSelect = document.getElementById("unidade");
+document.querySelectorAll("[data-unit]").forEach((link) => {
+  link.addEventListener("click", () => {
+    if (unidadeSelect) unidadeSelect.value = link.dataset.unit;
+  });
+});
 
 // Netlify Forms: intercept submit for AJAX-style success without leaving the page.
 const leadForm = document.getElementById("leadForm");
@@ -36,6 +36,6 @@ leadForm?.addEventListener("submit", (event) => {
       formSuccess.scrollIntoView({ behavior: "smooth", block: "start" });
     })
     .catch(() => {
-      alert("Não foi possível enviar agora. Tente novamente ou fale pelo WhatsApp.");
+      alert("Não foi possível enviar agora. Tente novamente em alguns instantes.");
     });
 });
