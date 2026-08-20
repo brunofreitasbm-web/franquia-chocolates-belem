@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://franquia-chocolates-belem.netlify.app/sitemap.xml
