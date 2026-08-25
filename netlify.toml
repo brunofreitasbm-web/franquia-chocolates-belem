@@ -3,13 +3,14 @@
   command = ""
 
 # Link curto para usar no link da bio do Instagram, no lugar da URL longa
-# com utm_source/utm_medium/utm_content. Mantém o rastreamento (os parâmetros
-# são adicionados no redirecionamento) mas o link que aparece ao colar/repassar
-# fica limpo: https://franquia-chocolates-belem.netlify.app/ig
+# com utm_source/utm_medium/utm_content. status = 200 é um rewrite (proxy):
+# o conteúdo com os parâmetros de rastreamento é servido por trás, mas a
+# barra de endereço continua mostrando /ig — inclusive se a pessoa copiar
+# ou repassar o link depois de abrir a página.
 [[redirects]]
   from = "/ig"
   to = "/?utm_source=ig&utm_medium=social&utm_content=link_in_bio"
-  status = 301
+  status = 200
   force = true
 
 [[headers]]
