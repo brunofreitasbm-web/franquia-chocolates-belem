@@ -2,6 +2,16 @@
   publish = "."
   command = ""
 
+# Link curto para usar no link da bio do Instagram, no lugar da URL longa
+# com utm_source/utm_medium/utm_content. Mantém o rastreamento (os parâmetros
+# são adicionados no redirecionamento) mas o link que aparece ao colar/repassar
+# fica limpo: https://franquia-chocolates-belem.netlify.app/ig
+[[redirects]]
+  from = "/ig"
+  to = "/?utm_source=ig&utm_medium=social&utm_content=link_in_bio"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
