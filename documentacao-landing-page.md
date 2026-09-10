@@ -191,7 +191,7 @@ python3 -m http.server 8000
 ## 8. Pendências antes de escalar tráfego
 
 - [ ] Confirmar a redação sobre a situação da unidade de rua junto à franqueadora. A página **não** afirma "zero pendências" — essa frase seria falsa pelos registros. Se for usar qualquer variação disso na campanha, valide antes.
-- [ ] Definir o valor final da unidade de supermercado ou confirmar "sob consulta" definitivo. Preço indefinido filtra candidatos mais sérios, mas reduz a taxa de clique no anúncio.
+- [x] Definir o valor da unidade de Ananindeua (ponto em supermercado) fixado em R$ 42.000,00.
 - [ ] Alinhar a explicação dos períodos financeiros mais fracos antes da primeira reunião — o DRE pós-triagem mostra tudo, e a explicação precisa estar pronta antes, não durante.
 - [ ] Preparar o discurso de turnaround da unidade de supermercado.
 - [ ] Preparar o termo de confidencialidade (NDA) simples.
