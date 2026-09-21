@@ -92,32 +92,18 @@ A antiga seção "Perfis de investidor" foi fundida nas fichas: cada unidade tra
 ### 4.1 Copy do hero
 
 - **Badge:** "Repasse direto do franqueado, sem intermediários"
-- **Headline:** "Estou repassando duas operações estruturadas no ramo de chocolates e presentes"
-- **Subheadline:** "Uma em Belém, outra em Ananindeua. Equipe treinada, fornecimento definido e vendas em operação: você assume um negócio que já funciona, não abre um do zero."
-- **CTA primário:** "Ver as duas oportunidades" → `#unidades`
+- **Headline:** "Estou repassando uma operação estruturada no ramo de chocolates e presentes"
+- **Subheadline:** "Localizada no bairro da Marambaia em Belém/PA. Equipe treinada, fornecimento definido e vendas em operação: você assume um negócio que já funciona, não abre um do zero."
+- **CTA primário:** "Ver a oportunidade" → `#unidades`
 - **CTA secundário:** "Cadastrar meu interesse" → `#lead-form`
 
 A headline nomeia o setor (chocolates e presentes) sem citar marca, já filtrando quem não tem interesse no segmento.
 
-### 4.2 Fichas das unidades
+### 4.2 Ficha da unidade
 
-Duas fichas de estrutura idêntica e conteúdo específico. **Elas nunca compartilham números** — misturar os dados faria um candidato assumir que os indicadores de uma valem para a outra, o que seria falso.
+Ficha focada na unidade de rua no bairro da Marambaia em Belém/PA.
 
-Distinção visual: chip de categoria preenchido — terracota na unidade de rua, oliva na de supermercado. (A borda superior colorida foi removida; era um padrão genérico de card.)
-
-Cada ficha traz: tag de categoria, título, localização genérica, 5 bullets de ponto forte, bloco de 2 indicadores, linha de perfil ideal ("para quem faz sentido"), valor de aquisição e CTA próprio. O CTA carrega `data-unit`, que pré-seleciona a unidade no formulário via JS.
-
-**CTA repetido nas duas** ("Quero saber mais sobre esta unidade") em vez de "Comprar" ou "Fechar negócio" — mantém o funil consistente com o objetivo real, que é gerar interesse qualificado, não fechar venda na página.
-
-### 4.3 Como funciona — as 5 etapas
-
-1. Cadastro e triagem
-2. Conversa e confidencialidade
-3. Acesso ao DRE completo
-4. Processo junto à franqueadora
-5. Transferência
-
-Texto de apoio: "Este é um processo formal de transferência dentro de uma rede de franquia nacional. Quem compra passa por aprovação da própria rede antes da conclusão — isso protege as duas partes."
+A ficha traz: tag de categoria, título, localização ("bairro da Marambaia em Belém/PA"), bullets de ponto forte, bloco de indicadores, linha de perfil ideal ("para quem faz sentido"), valor de aquisição e CTA próprio. O CTA carrega `data-unit`, que pré-seleciona a unidade no formulário via JS.
 
 ---
 
@@ -127,7 +113,7 @@ Texto de apoio: "Este é um processo formal de transferência dentro de uma rede
 
 | Campo | `name` | Obrigatório | Tipo |
 |---|---|---|---|
-| Unidade de interesse | `unidade` | Sim | select (3 opções) |
+| Unidade de interesse | `unidade` | Sim | select (Loja Belém - Bairro Marambaia) |
 | Nome completo | `nome` | Sim | text |
 | E-mail | `email` | Sim | email |
 | Telefone / WhatsApp | `telefone` | Sim | tel |
@@ -152,7 +138,7 @@ Os dois checkboxes obrigatórios existem para registrar ciência antes de qualqu
 Vale para a página, para este repositório e para qualquer peça de campanha derivada.
 
 - ❌ Nome comercial, marca, logotipo, fachada, embalagem ou qualquer identificação visual da rede
-- ❌ Endereço exato de qualquer das duas unidades (usar apenas "bairro de alto fluxo em Belém/PA" e "supermercado de grande porte em Ananindeua/PA", sem citar o nome do supermercado)
+- ❌ Endereço exato da unidade (usar apenas "bairro da Marambaia em Belém/PA", sem citar o número ou rua exata)
 - ❌ Códigos internos de loja
 - ❌ Valores exatos de faturamento e lucro
 - ❌ Situação de pendências, acordos ou dívidas com a franqueadora
@@ -190,12 +176,10 @@ python3 -m http.server 8000
 
 ## 8. Pendências antes de escalar tráfego
 
-- [ ] Confirmar a redação sobre a situação da unidade de rua junto à franqueadora. A página **não** afirma "zero pendências" — essa frase seria falsa pelos registros. Se for usar qualquer variação disso na campanha, valide antes.
-- [x] Definir o valor da unidade de Ananindeua (ponto em supermercado) fixado em R$ 42.000,00.
+- [ ] Confirmar a redação sobre a situação da unidade junto à franqueadora. A página **não** afirma "zero pendências" — essa frase seria falsa pelos registros. Se for usar qualquer variação disso na campanha, valide antes.
+- [x] Ponto de Ananindeua removido do site por estar em negociação. Foco 100% na unidade de Belém (Marambaia).
 - [ ] Alinhar a explicação dos períodos financeiros mais fracos antes da primeira reunião — o DRE pós-triagem mostra tudo, e a explicação precisa estar pronta antes, não durante.
-- [ ] Preparar o discurso de turnaround da unidade de supermercado.
 - [ ] Preparar o termo de confidencialidade (NDA) simples.
-- [ ] Confirmar que anunciar as duas operações juntas não vai chegar à equipe ou à franqueadora antes do planejado — duas unidades do mesmo operador ao mesmo tempo é um padrão mais fácil de reconhecer do que uma isolada.
 - [ ] Validar com alguém de fora do projeto se a paleta e a tipografia realmente não remetem à identidade visual de nenhuma rede conhecida.
 
 ---

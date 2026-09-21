@@ -13,7 +13,7 @@ antes de divulgar a página. Lista completa:
 - [ ] Número de unidades da rede (hero)
 - [ ] Texto institucional da oportunidade (seção "A Oportunidade")
 - [ ] O que está incluso na venda (ponto, equipamentos, estoque, equipe)
-- [ ] Localização exata / região em Belém
+- [ ] Localização exata / região na Marambaia em Belém
 - [ ] Motivo da venda da franquia
 - [ ] Indicadores de faturamento, ticket médio, payback
 - [ ] Descrição do suporte oferecido ao franqueado
