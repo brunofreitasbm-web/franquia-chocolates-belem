@@ -42,6 +42,19 @@ antes de divulgar a página. Lista completa:
 - [ ] Testar o envio do formulário em produção (Netlify Forms só funciona após deploy)
 - [ ] Configurar notificação de novos leads em Site settings → Forms → Notifications no Netlify
 
+## Como editar a copy (bundle)
+
+O `index.html` publicado é um bundle: a página real fica embutida como uma string JSON em
+`<script type="__bundler/template">`. Fluxo seguro de edição:
+
+1. Extrair a versão plana a partir do bundle ao vivo: `python3 tools/bundle.py extract` gera `scratch_s4.html`.
+2. Editar a copy em `scratch_s4.html`.
+3. Reembutir: `python3 tools/bundle.py embed` reescreve só a linha do template em `index.html`
+   (o script escapa `</script>` como `<\/script>`, senão o bundle quebra).
+4. Atualizar também `<title>` e `<meta name="description">` do `<head>` externo do `index.html`.
+
+O script fica em `tools/bundle.py`. A copy segue `dna-oferta.md`.
+
 ## Rodando localmente
 Basta abrir `index.html` no navegador, ou servir a pasta com qualquer servidor estático.
 

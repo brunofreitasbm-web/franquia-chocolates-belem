@@ -140,14 +140,16 @@ Vale para a página, para este repositório e para qualquer peça de campanha de
 - ❌ Nome comercial, marca, logotipo, fachada, embalagem ou qualquer identificação visual da rede
 - ❌ Endereço exato da unidade (usar apenas "bairro da Marambaia em Belém/PA", sem citar o número ou rua exata)
 - ❌ Códigos internos de loja
-- ❌ Valores exatos de faturamento e lucro
+- ❌ Valores de lucro, margem, aluguel, folha ou royalties
 - ❌ Situação de pendências, acordos ou dívidas com a franqueadora
 - ❌ Qualquer afirmação financeira não verificável pelos registros reais
 - ❌ Telefone pessoal exposto — o formulário é o único ponto de entrada
 
 Isso vale inclusive para metadados: `title`, `meta description`, `alt` de imagem e nome de arquivo.
 
-Os indicadores que **estão** na página (ticket médio, clientes/dia, despesa fixa, cobertura do ponto de equilíbrio, sazonalidade, valor de aquisição) foram liberados deliberadamente por serem qualitativos ou não identificáveis isoladamente. O DRE completo só vai para quem passa pela triagem e assina o termo.
+Os únicos números liberados deliberadamente para a página são o faturamento dos últimos 12 meses, o pico mensal da Páscoa e o valor de repasse (decisão registrada em `dna-oferta.md`, seção 3.4). A rede pode ser insinuada ("uma das maiores redes de chocolates finos do país"), nunca nomeada. O DRE completo só vai para quem passa pela triagem e assina o termo.
+
+**Fonte da copy:** `dna-oferta.md` (Promessa · Confiança · Oferta). Qualquer texto novo no site, no Instagram ou em campanha segue aquele documento, inclusive o glossário de termos proibidos.
 
 ---
 
@@ -180,13 +182,14 @@ python3 -m http.server 8000
 - [x] Ponto de Ananindeua removido do site por estar em negociação. Foco 100% na unidade de Belém (Marambaia).
 - [ ] Alinhar a explicação dos períodos financeiros mais fracos antes da primeira reunião — o DRE pós-triagem mostra tudo, e a explicação precisa estar pronta antes, não durante.
 - [ ] Preparar o termo de confidencialidade (NDA) simples.
+- [ ] Preencher os placeholders `[A CONFIRMAR]` de `dna-oferta.md` (prazo do aluguel, valor de estoque, taxa de transferência, custo de loja nova, anos como franqueado, fonte do número de lojas).
 - [ ] Validar com alguém de fora do projeto se a paleta e a tipografia realmente não remetem à identidade visual de nenhuma rede conhecida.
 
 ---
 
 ## 9. Como editar
 
-**Trocar copy:** direto no `index.html`, seções comentadas com separadores `<!-- ===== NOME ===== -->`.
+**Trocar copy:** o `index.html` publicado é um bundle gerado por ferramenta de design; a página real está embutida como string JSON dentro de `<script type="__bundler/template">`. Não edite essa linha à mão. Edite `scratch_s4.html` (versão plana, sempre extraída do bundle ao vivo) e reembuta com o script descrito no README.
 
 **Trocar cor:** apenas nas custom properties do `:root` em `css/style.css`. Não hardcodar cor em regra individual — respeite os tokens ou o sistema perde consistência.
 
