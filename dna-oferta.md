@@ -2,7 +2,7 @@
 
 Fonte única da comunicação do repasse: site (`index.html`, via `scratch_s4.html`), perfil pessoal no Instagram e qualquer peça derivada. Se um texto novo contradiz este documento, o texto está errado, não o documento.
 
-> Este repositório é público. Aqui vale a mesma regra do site: nenhum nome comercial, logotipo, endereço exato, código de loja, lucro ou pendência com a franqueadora. Os únicos números públicos são os da seção 3.4.
+> Este repositório é público. Aqui vale a mesma regra do site: nenhum endereço exato, código de loja, lucro ou pendência com a franqueadora. A marca (Cacau Show) pode ser nomeada. Os únicos números públicos são os da seção 3.4.
 
 ---
 
@@ -14,7 +14,7 @@ O rascunho dizia: "negócio pronto, chega e começa a faturar, estruturado, dá 
 |---|---|---|
 | "Dá lucro" | Lucro não é publicado e o comprador vai pedir o número. Promessa sem prova é o primeiro ponto atacado na reunião. | "Já vende". Lucro vira argumento de transparência: "não prometo lucro em página pública, mostro o DRE". |
 | "Equipe treinada, estoque rodando" | Não estão na oferta. Estoque é vendido à parte; equipe não é garantida. | Dito com clareza no FAQ e na etapa 5 do processo. |
-| "Maior franquia do Brasil" | Não é verificável nessa forma. A marca não é nomeada. | "Maior rede de chocolates finos do país" só depois de conferir fonte. |
+| "Maior franquia do Brasil" | Precisava de fonte. | Confirmado: 1º lugar no ranking ABF 2026, com 4.713 lojas. Entra com a fonte. |
 | "Concentrar em outras frentes" | Vago. Quem sabe que você tem mais lojas pergunta por que vende só essa. | "Estou encerrando meu ciclo como franqueado para um novo projeto em outro setor; repassando as operações uma a uma." |
 
 ---
@@ -48,15 +48,15 @@ Indicador antigo "11 meses cobrem 145% do ponto de equilíbrio" só volta ao sit
 
 ## 3. Confiança
 
-Quatro pilares. Nenhum depende de nomear a marca.
+Quatro pilares. A marca é nomeada; o sigilo protege endereço, funcionários, clientes e números.
 
 ### 3.1 A rede
-"Uma das maiores redes de chocolates finos do país." Só evoluir para "a maior rede" com o número de lojas e a fonte conferidos: `[VERIFICAR: número de lojas + fonte antes de publicar]`. Nunca "maior franquia do Brasil".
+"Cacau Show, a maior franquia do Brasil: 1º lugar no ranking ABF 2026, com 4.713 lojas." Fonte: Ranking das 50 Maiores Franquias da ABF, março de 2026 (O Boticário em 2º com 3.898, McDonald's em 3º com 2.774). Atualizar o número quando sair o próximo ranking. O argumento para o comprador não é o tamanho em si: é fornecimento, marketing e treinamento que já vêm da franqueadora, e liquidez futura de uma loja de marca líder.
 
 ### 3.2 O vendedor
 Primeira pessoa, sem corretor, sem intermediário. Motivo completo e fechado:
 
-> "Sou o franqueado da loja na Marambaia. Estou encerrando meu ciclo como franqueado para me dedicar a um novo projeto em outro setor, e estou repassando minhas operações uma a uma, de forma organizada. Esta é a unidade disponível agora."
+> "Sou franqueado Cacau Show, responsável pela loja da Marambaia. Estou encerrando meu ciclo como franqueado para me dedicar a um novo projeto em outro setor, e estou repassando minhas operações uma a uma, de forma organizada. Esta é a unidade disponível agora."
 
 Se perguntarem qual setor: responder na conversa, não na página.
 
@@ -120,10 +120,10 @@ Nada de lucro, margem, aluguel, folha, royalties, ticket exato ou clientes/dia a
 
 | Elemento | Texto |
 |---|---|
-| Title | Repasse de Loja de Chocolates e Presentes por R$ 210 mil \| Belém/PA (Marambaia) |
-| Meta description | Sou o franqueado e estou repassando diretamente uma loja de chocolates e presentes já em operação no bairro da Marambaia, Belém/PA. Faturamento de R$ 1,23 milhão em 12 meses. Processo formal e DRE completo após triagem. |
+| Title | Repasse de Franquia Cacau Show por R$ 210 mil \| Belém/PA (Marambaia) |
+| Meta description | Sou franqueado Cacau Show e estou repassando diretamente uma loja já em operação no bairro da Marambaia, Belém/PA. Faturamento de R$ 1,23 milhão em 12 meses. Processo formal e DRE completo após triagem. |
 | Badges do hero | PREÇO DE REPASSE: R$ 210.000,00 · Fat. 12M: R$ 1,23 Milhão · Repasse Direto do Franqueado |
-| H1 | Assuma uma loja de chocolates e presentes que já vende em Belém, por R$ 210.000 |
+| H1 | Assuma uma loja Cacau Show que já vende em Belém, por R$ 210.000 |
 | Sub | Loja de rua no bairro da Marambaia, aberta e em operação. Histórico de faturamento de R$ 1,23 milhão nos últimos 12 meses, com pico de R$ 400 mil na Páscoa. Você assume uma operação que já funciona, em vez de montar uma do zero. |
 | Indicadores | Faturamento 12M: R$ 1,23 Milhão · Pico Mensal (Páscoa): R$ 400.897,14 · DRE completo (após triagem): 12 meses |
 | Formulário do hero | Receba as informações da loja de R$ 210 mil / Preencha abaixo. Eu mesmo reviso as respostas e retorno com o próximo passo. / Quero informações da loja de R$ 210 mil → |
@@ -132,22 +132,22 @@ Nada de lucro, margem, aluguel, folha, royalties, ticket exato ou clientes/dia a
 | Card 3 | Ponto e estrutura prontos. Loja de rua na Marambaia, com contrato de aluguel transferível, mobília, equipamentos e climatização. Nada para reformar. |
 | Card 4 | Loja aberta durante todo o repasse. A operação não para: continua vendendo enquanto a triagem, a aprovação da franqueadora e a transferência acontecem. Você assume com a loja funcionando. |
 | Por que estou repassando | Ver 3.2, mais: "O repasse é direto: sem placa de 'vende-se', sem corretor, sem terceiros no meio. Sou eu que respondo pelo processo do início ao fim, e a loja segue aberta e vendendo enquanto ele acontece." |
-| Pontos de confiança | Processo formal, não uma venda informal · Dados sensíveis só após triagem · Sem obra, sem montagem · Não prometo lucro em página pública |
+| Pontos de confiança | A maior franquia do Brasil (ABF 2026, 4.713 lojas) · Processo formal, não uma venda informal · Dados sensíveis só após triagem · Sem obra, sem montagem · Não prometo lucro em página pública |
 | Sazonalidade | A Páscoa concentra cerca de um terço do faturamento do ano. Card Páscoa (R$ 400.897,14) e card "Os outros 11 meses" (R$ 1,23 milhão em 12 meses, cerca de dois terços fora da Páscoa). |
 | Etapa 5 | Formalização e transição com a loja funcionando. O estoque do dia é acertado à parte, a preço de custo, e fico disponível para orientar nas primeiras semanas. |
 | FAQ: valor | O valor de repasse é R$ 210 mil. A forma de pagamento é tratada diretamente comigo na conversa de triagem. O estoque do dia da transferência é vendido à parte, a preço de custo. |
 | FAQ: incluso | O ponto comercial com contrato de aluguel transferível, a mobília, os equipamentos e a climatização, a transferência formal do contrato de franquia e o histórico de vendas da loja. O estoque é vendido à parte, a preço de custo. Os funcionários atuais estão na loja; manter a equipe é decisão de quem assume, não uma garantia minha. |
 | FAQ: lucro | Não em página pública. O que publico é faturamento. Margem, custos e resultado estão no DRE completo dos últimos 12 meses, que você recebe depois da triagem e do termo de confidencialidade. Prefiro que você decida com o número real na mão. |
-| Rodapé | Repasse direto do franqueado: loja de chocolates e presentes em operação no bairro da Marambaia, em Belém/PA. Informações completas apenas após triagem e termo de confidencialidade. |
+| Rodapé | Repasse direto do franqueado: loja Cacau Show em operação no bairro da Marambaia, em Belém/PA. Informações completas apenas após triagem e termo de confidencialidade. |
 
 ---
 
 ## 6. DNA do Instagram (perfil pessoal do franqueado)
 
-O perfil é seu, não da loja. Você fala como empresário que está repassando as próprias operações. Quem te segue já sabe de qual rede se trata; o sigilo que resta protege funcionários, clientes e números, não a marca.
+O perfil é seu, não da loja. Você fala como empresário que está repassando as próprias operações. A marca é dita abertamente. O sigilo que resta protege endereço exato, funcionários, clientes e números.
 
 ### Bio (até 150 caracteres)
-> Franqueado em Belém há `[N]` anos. Repassando minhas operações de chocolates e presentes, direto, sem intermediário. Disponível agora: Marambaia ↓
+> Franqueado Cacau Show em Belém há `[N]` anos. Repassando minhas lojas, direto, sem intermediário. Disponível agora: Marambaia ↓
 
 Link da bio: `https://franquia-chocolates-belem.netlify.app/ig`
 
@@ -165,7 +165,6 @@ Primeira linha = promessa curta ou pergunta do comprador. Corpo = um fato verifi
 
 ### Proibições (valem para feed, stories e respostas)
 - Foto de fachada, produto, embalagem, vitrine ou funcionário.
-- Nome da rede, logotipo, cores da marca.
 - Palavra "vende-se". Trocar por "repasse".
 - Qualquer número de lucro, margem, aluguel ou folha.
 - Contagem regressiva, "últimas vagas", "só até sexta".
@@ -182,7 +181,6 @@ Primeira linha = promessa curta ou pergunta do comprador. Corpo = um fato verifi
 | estoque rodando, estoque incluso | estoque à parte, a preço de custo |
 | 100% auditado | DRE completo de 12 meses, após triagem |
 | concentrar em outras frentes | encerrando meu ciclo como franqueado; novo projeto em outro setor |
-| nome da rede | uma das maiores redes de chocolates finos do país |
 | vende-se | repasse |
 | inicia faturando imediatamente | assume com a loja funcionando |
 | as unidades | a loja, a unidade |
@@ -196,5 +194,4 @@ Primeira linha = promessa curta ou pergunta do comprador. Corpo = um fato verifi
 - [ ] Taxa de transferência da franqueadora e quem paga (seção 4).
 - [ ] Custo aproximado de montar uma loja nova deste porte (âncora, seção 4).
 - [ ] Anos como franqueado (bio do Instagram, seção 6).
-- [ ] Número de lojas da rede com fonte, se for usar "a maior rede" (seção 3.1).
 - [ ] Reconferir no DRE atual o indicador de cobertura do ponto de equilíbrio antes de reutilizar (seção 2).
