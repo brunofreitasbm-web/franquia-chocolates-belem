@@ -13,6 +13,49 @@
   status = 200
   force = true
 
+# Arquivos de trabalho que o publish = "." deixaria públicos e indexáveis:
+# rascunho do template (duplicata da página), documentação/estratégia e ferramentas.
+# Respondem 404 para o buscador tirá-los do índice.
+[[redirects]]
+  from = "/scratch_s4.html"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/*.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/tools/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+# CSS/JS legados e exports de design na raiz: não são usados pela página
+# e não devem aparecer em busca de imagens/arquivos.
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/*@2x.png"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
 [[headers]]
   for = "/*"
   [headers.values]

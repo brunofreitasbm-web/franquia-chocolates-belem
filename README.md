@@ -49,9 +49,16 @@ O `index.html` publicado é um bundle: a página real fica embutida como uma str
 
 1. Extrair a versão plana a partir do bundle ao vivo: `python3 tools/bundle.py extract` gera `scratch_s4.html`.
 2. Editar a copy em `scratch_s4.html`.
-3. Reembutir: `python3 tools/bundle.py embed` reescreve só a linha do template em `index.html`
-   (o script escapa `</script>` como `<\/script>`, senão o bundle quebra).
-4. Atualizar também `<title>` e `<meta name="description">` do `<head>` externo do `index.html`.
+3. Reembutir: `python3 tools/bundle.py embed` reescreve o template em `index.html` (o script escapa
+   `</script>` como `<\/script>`, senão o bundle quebra) **e regenera sozinho** o `<head>` de SEO
+   (title, description, canonical, Open Graph, JSON-LD — tudo vindo do `<helmet>` do template) e o
+   texto estático da página (`<main id="prerender">`).
+4. Não edite à mão o que fica entre `<!-- seo:start/end -->` e `<!-- prerender:start/end -->` em `index.html`:
+   a próxima execução do `embed` sobrescreve.
+
+Por que o prerender existe: o bundle só monta a página com JavaScript. Sem ele, WhatsApp/Instagram,
+crawlers de IA (GPTBot, ClaudeBot, PerplexityBot) e qualquer leitor de HTML cru enxergam só "Unpacking...".
+Título ≤ 65 caracteres e description ≤ 160 caracteres, senão o Google trunca.
 
 O script fica em `tools/bundle.py`. A copy segue `dna-oferta.md`.
 
