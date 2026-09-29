@@ -51,12 +51,12 @@ Indicador antigo "11 meses cobrem 145% do ponto de equilíbrio" só volta ao sit
 Quatro pilares. A marca é nomeada; o sigilo protege endereço, funcionários, clientes e números.
 
 ### 3.1 A rede
-"Cacau Show, a maior franquia do Brasil: 1º lugar no ranking ABF 2026, com 4.713 lojas." Fonte: Ranking das 50 Maiores Franquias da ABF, março de 2026 (O Boticário em 2º com 3.898, McDonald's em 3º com 2.774). Atualizar o número quando sair o próximo ranking. O argumento para o comprador não é o tamanho em si: é fornecimento, marketing e treinamento que já vêm da franqueadora, e liquidez futura de uma loja de marca líder.
+"Cacau Show, a maior franquia do Brasil: 1º lugar no ranking ABF 2026, com mais de 4.700 lojas." Fonte: Ranking das 50 Maiores Franquias da ABF, março de 2026: 4.713 lojas (O Boticário em 2º com 3.898, McDonald's em 3º com 2.774); a rede projeta 5.000 unidades. No site usar "mais de 4.700", que envelhece melhor; atualizar quando sair o próximo ranking. O argumento para o comprador não é o tamanho em si: é fornecimento, marketing e treinamento que já vêm da franqueadora, e liquidez futura de uma loja de marca líder.
 
 ### 3.2 O vendedor
 Primeira pessoa, sem corretor, sem intermediário. Motivo completo e fechado:
 
-> "Sou franqueado Cacau Show, responsável pela loja da Marambaia. Estou encerrando meu ciclo como franqueado para me dedicar a um novo projeto em outro setor, e estou repassando minhas operações uma a uma, de forma organizada. Esta é a unidade disponível agora."
+> "Sou franqueado Cacau Show há 4 anos e respondo pela loja da Marambaia. Estou encerrando meu ciclo como franqueado para me dedicar a um novo projeto em outro setor, e estou repassando minhas operações uma a uma, de forma organizada. Esta é a unidade disponível agora."
 
 Se perguntarem qual setor: responder na conversa, não na página.
 
@@ -75,6 +75,8 @@ Substitui "100% auditado", que não é verificável.
 | Faturamento últimos 12 meses | R$ 1,23 milhão | hero, sazonalidade, meta description |
 | Pico mensal (Páscoa 2026, 05/04) | R$ 400.897,14 | hero, cards, sazonalidade |
 | Valor de repasse | R$ 210.000 | título, hero, FAQ, formulário |
+| Custo estimado de loja nova (âncora) | cerca de R$ 350 mil | card 1, FAQ |
+| Rede | mais de 4.700 lojas, 1ª no ranking ABF 2026 | ponto de confiança |
 
 Nada de lucro, margem, aluguel, folha, royalties, ticket exato ou clientes/dia até nova decisão.
 
@@ -101,7 +103,7 @@ Nada de lucro, margem, aluguel, folha, royalties, ticket exato ou clientes/dia a
 - R$ 210 mil. Forma de pagamento tratada na triagem. Nunca publicar parcelamento ou desconto.
 
 ### Âncora de preço
-- Só publicar com número: "montar uma loja nova deste porte costuma passar de R$ `[A CONFIRMAR]` mil, mais os meses até inaugurar". Enquanto não houver número, a âncora é qualitativa: "sem obra, sem montagem, sem os meses de espera".
+- "Montar uma loja Cacau Show deste padrão custa por volta de R$ 350 mil, mais os meses até inaugurar. Esta custa R$ 210 mil e já está montada, aprovada e vendendo." Estimativa do franqueado; escrever sempre "por volta de" ou "cerca de", nunca como valor oficial da franqueadora.
 
 ### Para quem é
 - Tem R$ 210 mil mais giro para estoque.
@@ -127,15 +129,15 @@ Nada de lucro, margem, aluguel, folha, royalties, ticket exato ou clientes/dia a
 | Sub | Loja de rua no bairro da Marambaia, aberta e em operação. Histórico de faturamento de R$ 1,23 milhão nos últimos 12 meses, com pico de R$ 400 mil na Páscoa. Você assume uma operação que já funciona, em vez de montar uma do zero. |
 | Indicadores | Faturamento 12M: R$ 1,23 Milhão · Pico Mensal (Páscoa): R$ 400.897,14 · DRE completo (após triagem): 12 meses |
 | Formulário do hero | Receba as informações da loja de R$ 210 mil / Preencha abaixo. Eu mesmo reviso as respostas e retorno com o próximo passo. / Quero informações da loja de R$ 210 mil → |
-| Card 1 | R$ 210 mil por uma loja em operação. Ponto, estrutura e contrato de franquia por um valor fechado. Sem obra, sem montagem e sem os meses de espera até inaugurar uma loja nova. |
+| Card 1 | R$ 210 mil, contra cerca de R$ 350 mil de uma loja nova. Montar uma loja Cacau Show deste padrão custa por volta de R$ 350 mil, mais os meses até inaugurar. Esta já está montada, aprovada e vendendo. |
 | Card 2 | Páscoa: um terço do ano em um mês. R$ 400.897,14 faturados na Páscoa de 2026. É o pico da operação e o motivo de planejar o ano em torno dela. Quem assume já entra com esse calendário. |
 | Card 3 | Ponto e estrutura prontos. Loja de rua na Marambaia, com contrato de aluguel transferível, mobília, equipamentos e climatização. Nada para reformar. |
 | Card 4 | Loja aberta durante todo o repasse. A operação não para: continua vendendo enquanto a triagem, a aprovação da franqueadora e a transferência acontecem. Você assume com a loja funcionando. |
 | Por que estou repassando | Ver 3.2, mais: "O repasse é direto: sem placa de 'vende-se', sem corretor, sem terceiros no meio. Sou eu que respondo pelo processo do início ao fim, e a loja segue aberta e vendendo enquanto ele acontece." |
-| Pontos de confiança | A maior franquia do Brasil (ABF 2026, 4.713 lojas) · Processo formal, não uma venda informal · Dados sensíveis só após triagem · Sem obra, sem montagem · Não prometo lucro em página pública |
+| Pontos de confiança | A maior franquia do Brasil (ABF 2026, mais de 4.700 lojas) · Processo formal, não uma venda informal · Dados sensíveis só após triagem · Sem obra, sem montagem · Não prometo lucro em página pública |
 | Sazonalidade | A Páscoa concentra cerca de um terço do faturamento do ano. Card Páscoa (R$ 400.897,14) e card "Os outros 11 meses" (R$ 1,23 milhão em 12 meses, cerca de dois terços fora da Páscoa). |
 | Etapa 5 | Formalização e transição com a loja funcionando. O estoque do dia é acertado à parte, a preço de custo, e fico disponível para orientar nas primeiras semanas. |
-| FAQ: valor | O valor de repasse é R$ 210 mil. A forma de pagamento é tratada diretamente comigo na conversa de triagem. O estoque do dia da transferência é vendido à parte, a preço de custo. |
+| FAQ: valor | O valor de repasse é R$ 210 mil. Para comparar: montar uma loja Cacau Show deste padrão custa por volta de R$ 350 mil, sem contar os meses até inaugurar. A forma de pagamento é tratada diretamente comigo na conversa de triagem. O estoque do dia da transferência é vendido à parte, a preço de custo. |
 | FAQ: incluso | O ponto comercial com contrato de aluguel transferível, a mobília, os equipamentos e a climatização, a transferência formal do contrato de franquia e o histórico de vendas da loja. O estoque é vendido à parte, a preço de custo. Os funcionários atuais estão na loja; manter a equipe é decisão de quem assume, não uma garantia minha. |
 | FAQ: lucro | Não em página pública. O que publico é faturamento. Margem, custos e resultado estão no DRE completo dos últimos 12 meses, que você recebe depois da triagem e do termo de confidencialidade. Prefiro que você decida com o número real na mão. |
 | Rodapé | Repasse direto do franqueado: loja Cacau Show em operação no bairro da Marambaia, em Belém/PA. Informações completas apenas após triagem e termo de confidencialidade. |
@@ -147,7 +149,7 @@ Nada de lucro, margem, aluguel, folha, royalties, ticket exato ou clientes/dia a
 O perfil é seu, não da loja. Você fala como empresário que está repassando as próprias operações. A marca é dita abertamente. O sigilo que resta protege endereço exato, funcionários, clientes e números.
 
 ### Bio (até 150 caracteres)
-> Franqueado Cacau Show em Belém há `[N]` anos. Repassando minhas lojas, direto, sem intermediário. Disponível agora: Marambaia ↓
+> Franqueado Cacau Show em Belém há 4 anos. Repassando minhas lojas, direto, sem intermediário. Disponível agora: Marambaia ↓
 
 Link da bio: `https://franquia-chocolates-belem.netlify.app/ig`
 
@@ -192,6 +194,4 @@ Primeira linha = promessa curta ou pergunta do comprador. Corpo = um fato verifi
 - [ ] Prazo restante do contrato de aluguel (seção 4).
 - [ ] Valor médio de estoque para o comprador dimensionar giro (seção 4).
 - [ ] Taxa de transferência da franqueadora e quem paga (seção 4).
-- [ ] Custo aproximado de montar uma loja nova deste porte (âncora, seção 4).
-- [ ] Anos como franqueado (bio do Instagram, seção 6).
 - [ ] Reconferir no DRE atual o indicador de cobertura do ponto de equilíbrio antes de reutilizar (seção 2).

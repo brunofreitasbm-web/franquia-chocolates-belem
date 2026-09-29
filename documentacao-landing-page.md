@@ -181,7 +181,7 @@ python3 -m http.server 8000
 - [x] Ponto de Ananindeua removido do site por estar em negociação. Foco 100% na unidade de Belém (Marambaia).
 - [ ] Alinhar a explicação dos períodos financeiros mais fracos antes da primeira reunião — o DRE pós-triagem mostra tudo, e a explicação precisa estar pronta antes, não durante.
 - [ ] Preparar o termo de confidencialidade (NDA) simples.
-- [ ] Preencher os placeholders `[A CONFIRMAR]` de `dna-oferta.md` (prazo do aluguel, valor de estoque, taxa de transferência, custo de loja nova, anos como franqueado, fonte do número de lojas).
+- [ ] Preencher os placeholders `[A CONFIRMAR]` de `dna-oferta.md` (prazo do aluguel, valor de estoque, taxa de transferência).
 - [ ] Validar com alguém de fora do projeto se a paleta e a tipografia realmente não remetem à identidade visual de nenhuma rede conhecida.
 
 ---
