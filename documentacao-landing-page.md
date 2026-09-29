@@ -2,7 +2,7 @@
 
 Documentação técnica e de conteúdo da página publicada em `franquia-chocolates-belem.netlify.app`.
 
-> **Atenção — este repositório é público.** Esta documentação segue as mesmas regras de confidencialidade da própria página: nenhum nome comercial, marca, logotipo, código de loja, bairro identificável ou dado financeiro reservado aparece aqui. Os dados completos das unidades ficam apenas nos documentos internos, fora deste repositório. Antes de commitar qualquer coisa aqui, confira que a regra continua valendo.
+> **Atenção — este repositório é público.** Esta documentação segue as mesmas regras de confidencialidade da própria página: nenhum endereço exato, código de loja ou dado financeiro reservado aparece aqui. A marca (Cacau Show) pode ser nomeada desde a revisão registrada em `dna-oferta.md`. Os dados completos das unidades ficam apenas nos documentos internos, fora deste repositório. Antes de commitar qualquer coisa aqui, confira que a regra continua valendo.
 
 ---
 
@@ -70,7 +70,7 @@ Definida em `css/style.css` como custom properties no `:root`.
 
 - Um único CTA visualmente dominante por seção. Nunca dois CTAs de mesmo peso competindo.
 - Contraste mínimo 4.5:1 em todas as combinações de cor.
-- **Fotografia:** nenhuma foto real de loja, fachada, produto embalado ou equipe pode entrar na página. O hero usa uma "ficha resumo" em CSS (card estilo documento, com linhas pontilhadas) justamente para não depender de imagem. As formas circulares decorativas da versão anterior foram removidas. Se for adicionar foto no futuro, ela precisa ser genérica, sem logotipo visível de nenhuma marca — inclusive de terceiros, para não sugerir parceria não autorizada.
+- **Fotografia:** fotos de fachada e produto são permitidas desde a liberação da marca; nenhuma foto de equipe ou que revele o endereço exato (número, rua, placa de esquina). O hero usa uma "ficha resumo" em CSS (card estilo documento, com linhas pontilhadas) justamente para não depender de imagem. As formas circulares decorativas da versão anterior foram removidas. Se for adicionar foto no futuro, ela precisa ser genérica, sem logotipo visível de nenhuma marca — inclusive de terceiros, para não sugerir parceria não autorizada.
 
 ---
 
@@ -137,17 +137,18 @@ Os dois checkboxes obrigatórios existem para registrar ciência antes de qualqu
 
 Vale para a página, para este repositório e para qualquer peça de campanha derivada.
 
-- ❌ Nome comercial, marca, logotipo, fachada, embalagem ou qualquer identificação visual da rede
 - ❌ Endereço exato da unidade (usar apenas "bairro da Marambaia em Belém/PA", sem citar o número ou rua exata)
 - ❌ Códigos internos de loja
-- ❌ Valores exatos de faturamento e lucro
+- ❌ Valores de lucro, margem, aluguel, folha ou royalties
 - ❌ Situação de pendências, acordos ou dívidas com a franqueadora
 - ❌ Qualquer afirmação financeira não verificável pelos registros reais
 - ❌ Telefone pessoal exposto — o formulário é o único ponto de entrada
 
 Isso vale inclusive para metadados: `title`, `meta description`, `alt` de imagem e nome de arquivo.
 
-Os indicadores que **estão** na página (ticket médio, clientes/dia, despesa fixa, cobertura do ponto de equilíbrio, sazonalidade, valor de aquisição) foram liberados deliberadamente por serem qualitativos ou não identificáveis isoladamente. O DRE completo só vai para quem passa pela triagem e assina o termo.
+Os únicos números liberados deliberadamente para a página são o faturamento dos últimos 12 meses, o pico mensal da Páscoa e o valor de repasse (decisão registrada em `dna-oferta.md`, seção 3.4). A marca é nomeada abertamente (Cacau Show, 1ª no ranking ABF 2026); o sigilo cobre endereço exato, funcionários, clientes e números. O DRE completo só vai para quem passa pela triagem e assina o termo.
+
+**Fonte da copy:** `dna-oferta.md` (Promessa · Confiança · Oferta). Qualquer texto novo no site, no Instagram ou em campanha segue aquele documento, inclusive o glossário de termos proibidos.
 
 ---
 
@@ -180,13 +181,14 @@ python3 -m http.server 8000
 - [x] Ponto de Ananindeua removido do site por estar em negociação. Foco 100% na unidade de Belém (Marambaia).
 - [ ] Alinhar a explicação dos períodos financeiros mais fracos antes da primeira reunião — o DRE pós-triagem mostra tudo, e a explicação precisa estar pronta antes, não durante.
 - [ ] Preparar o termo de confidencialidade (NDA) simples.
+- [ ] Preencher os placeholders `[A CONFIRMAR]` de `dna-oferta.md` (prazo do aluguel, valor de estoque, taxa de transferência).
 - [ ] Validar com alguém de fora do projeto se a paleta e a tipografia realmente não remetem à identidade visual de nenhuma rede conhecida.
 
 ---
 
 ## 9. Como editar
 
-**Trocar copy:** direto no `index.html`, seções comentadas com separadores `<!-- ===== NOME ===== -->`.
+**Trocar copy:** o `index.html` publicado é um bundle gerado por ferramenta de design; a página real está embutida como string JSON dentro de `<script type="__bundler/template">`. Não edite essa linha à mão. Edite `scratch_s4.html` (versão plana, sempre extraída do bundle ao vivo) e reembuta com o script descrito no README.
 
 **Trocar cor:** apenas nas custom properties do `:root` em `css/style.css`. Não hardcodar cor em regra individual — respeite os tokens ou o sistema perde consistência.
 
