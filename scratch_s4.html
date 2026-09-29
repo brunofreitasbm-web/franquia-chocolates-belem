@@ -416,14 +416,18 @@
     .faq-plus { transition: transform .25s var(--ease-out); }
     details[open] .faq-plus { transform: rotate(45deg); }
     @media (max-width: 960px) {
-      .hero-grid { grid-template-columns: 1fr !important; }
-      .intro-grid { grid-template-columns: 1fr !important; }
-      .units-grid { grid-template-columns: 1fr !important; }
-      .footer-grid { grid-template-columns: 1fr !important; }
+      .hero-grid { grid-template-columns: minmax(0,1fr) !important; }
+      .intro-grid { grid-template-columns: minmax(0,1fr) !important; }
+      .units-grid { grid-template-columns: minmax(0,1fr) !important; }
+      .footer-grid { grid-template-columns: minmax(0,1fr) !important; }
+      .hero-grid > *, .intro-grid > *, .units-grid > *, .footer-grid > * { min-width: 0; }
     }
     @media (max-width: 760px) {
       .nav-links { display: none !important; }
       .split-row { flex-direction: column !important; }
+      .season-grid { grid-template-columns: minmax(0,1fr) !important; }
+      form [style*="grid-template-columns:1fr 1fr"], form [style*="grid-template-columns: 1fr 1fr"] { grid-template-columns: minmax(0,1fr) !important; }
+      form input, form select, form textarea, form sc-raw-select { min-width: 0; max-width: 100%; }
       .logo-subtitle { display: none !important; }
       .logo-link { min-width: 0; }
       .logo-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -450,7 +454,7 @@
       <a href="#como-funciona" style="font-size:.9rem;font-weight:500;color:var(--color-ink-soft);">Como funciona</a>
       <a href="#faq" style="font-size:.9rem;font-weight:500;color:var(--color-ink-soft);">Dúvidas</a>
     </nav>
-    <a href="#lead-form" class="btn btn-primary header-cta" style="padding:10px 20px;font-size:.88rem;">Quero saber mais</a>
+    <a href="#lead-form-container" class="btn btn-primary header-cta" style="padding:10px 20px;font-size:.88rem;">Quero saber mais</a>
   </div>
 </header>
 
@@ -789,77 +793,10 @@
 
 <section id="lead-form" style="padding:96px 0;background:linear-gradient(160deg, var(--color-ink), #35302b);">
   <div style="max-width:760px;margin:0 auto;padding:0 24px;">
-    <h2 style="font-size:clamp(1.8rem,3.2vw,2.6rem);max-width:20ch;color:var(--color-cream);">Cadastre seu interesse e vamos conversar</h2>
-    <p style="max-width:620px;font-size:1.05rem;margin-bottom:0;color:rgba(244,239,233,.8);">Este formulário é o único canal de contato nesta fase. Vou revisar suas respostas pessoalmente e retornar com o próximo passo.</p>
+    <h2 style="font-size:clamp(1.8rem,3.2vw,2.6rem);max-width:20ch;color:var(--color-cream);">Ficou com dúvida? Cadastre seu interesse</h2>
+    <p style="max-width:620px;font-size:1.05rem;margin-bottom:0;color:rgba(244,239,233,.8);">O formulário no topo da página é o único canal de contato nesta fase. Vou revisar suas respostas pessoalmente e retornar com o próximo passo.</p>
 
-    <form id="repasse-lead-form" style="margin-top:40px;background:rgba(255,255,255,.05);border:1px solid rgba(244,239,233,.18);border-radius:16px;padding:32px;">
-      <div style="margin-bottom:18px;display:flex;flex-direction:column;gap:6px;">
-        <label for="form-oportunidade" style="font-size:.85rem;font-weight:600;color:rgba(244,239,233,.9);">Qual oportunidade te interessa? *</label>
-        <sc-raw-select id="form-oportunidade" name="oportunidade" style="padding:12px 14px;border-radius:6px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.96);font-family:var(--font-body);font-size:.95rem;color:var(--color-ink);">
-          <option>Selecione uma opção</option>
-          <option>Loja de rua na Marambaia (Belém) — R$ 210 mil</option>
-          
-          
-        </sc-raw-select>
-      </div>
-      <div style="margin-bottom:18px;display:flex;flex-direction:column;gap:6px;">
-        <label for="form-nome" style="font-size:.85rem;font-weight:600;color:rgba(244,239,233,.9);">Nome completo *</label>
-        <input type="text" id="form-nome" name="nome" autocomplete="name" style="padding:12px 14px;border-radius:6px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.96);font-family:var(--font-body);font-size:.95rem;color:var(--color-ink);">
-      </div>
-      <div class="split-row" style="margin-bottom:18px;display:flex;gap:18px;">
-        <div style="flex:1;display:flex;flex-direction:column;gap:6px;">
-          <label for="form-email" style="font-size:.85rem;font-weight:600;color:rgba(244,239,233,.9);">E-mail *</label>
-          <input type="email" id="form-email" name="email" autocomplete="email" placeholder="nome@exemplo.com" style="padding:12px 14px;border-radius:6px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.96);font-family:var(--font-body);font-size:.95rem;color:var(--color-ink);">
-        </div>
-        <div style="flex:1;display:flex;flex-direction:column;gap:6px;">
-          <label for="form-telefone" style="font-size:.85rem;font-weight:600;color:rgba(244,239,233,.9);">Telefone / WhatsApp *</label>
-          <input type="tel" id="form-telefone" name="telefone" autocomplete="tel" placeholder="(91) 90000-0000" style="padding:12px 14px;border-radius:6px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.96);font-family:var(--font-body);font-size:.95rem;color:var(--color-ink);">
-        </div>
-      </div>
-      <div style="margin-bottom:18px;display:flex;flex-direction:column;gap:6px;">
-        <label for="form-investimento" style="font-size:.85rem;font-weight:600;color:rgba(244,239,233,.9);">Capital disponível para investimento *</label>
-        <sc-raw-select id="form-investimento" name="investimento" style="padding:12px 14px;border-radius:6px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.96);font-family:var(--font-body);font-size:.95rem;color:var(--color-ink);">
-          <option>Selecione uma faixa</option>
-          <option>Até R$ 150 mil</option>
-          <option>R$ 150 mil a R$ 250 mil</option>
-          <option>Acima de R$ 250 mil</option>
-        </sc-raw-select>
-      </div>
-      <div style="margin-bottom:18px;display:flex;flex-direction:column;gap:6px;">
-        <label for="form-experiencia" style="font-size:.85rem;font-weight:600;color:rgba(244,239,233,.9);">Já teve experiência com franquias ou varejo?</label>
-        <sc-raw-select id="form-experiencia" name="experiencia" style="padding:12px 14px;border-radius:6px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.96);font-family:var(--font-body);font-size:.95rem;color:var(--color-ink);">
-          <option>Selecione uma opção</option>
-          <option>Sim</option>
-          <option>Não</option>
-        </sc-raw-select>
-      </div>
-      <div style="margin-bottom:18px;display:flex;flex-direction:column;gap:6px;">
-        <label for="form-motivacao" style="font-size:.85rem;font-weight:600;color:rgba(244,239,233,.9);">O que te motiva a buscar esse tipo de negócio?</label>
-        <sc-raw-select id="form-motivacao" name="motivacao" style="padding:12px 14px;border-radius:6px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.96);font-family:var(--font-body);font-size:.95rem;color:var(--color-ink);">
-          <option>Selecione uma opção</option>
-          <option>Primeiro negócio</option>
-          <option>Segundo negócio</option>
-          <option>Investimento</option>
-          <option>Mudança de carreira</option>
-        </sc-raw-select>
-      </div>
-      <div style="margin-bottom:18px;display:flex;flex-direction:column;gap:6px;">
-        <label for="form-prazo" style="font-size:.85rem;font-weight:600;color:rgba(244,239,233,.9);">Em quanto tempo pretende concluir a aquisição?</label>
-        <sc-raw-select id="form-prazo" name="prazo" style="padding:12px 14px;border-radius:6px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.96);font-family:var(--font-body);font-size:.95rem;color:var(--color-ink);">
-          <option>Selecione uma opção</option>
-          <option>Até 30 dias</option>
-          <option>30 a 90 dias</option>
-          <option>Mais de 90 dias</option>
-          <option>Ainda não sei</option>
-        </sc-raw-select>
-      </div>
-      <div style="margin-bottom:18px;display:flex;flex-direction:column;gap:6px;">
-        <label for="form-mensagem" style="font-size:.85rem;font-weight:600;color:rgba(244,239,233,.9);">Mensagem (opcional)</label>
-        <textarea rows="3" id="form-mensagem" name="mensagem" style="padding:12px 14px;border-radius:6px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.96);font-family:var(--font-body);font-size:.95rem;color:var(--color-ink);"></textarea>
-      </div>
-      <button type="button" id="repasse-lead-submit" class="btn btn-primary" style="width:100%;padding:16px 32px;font-size:1rem;">Enviar e agendar conversa</button>
-      <p style="font-size:.78rem;color:rgba(244,239,233,.62);margin:14px 0 0;text-align:center;">Seus dados são usados apenas neste processo de triagem e não são compartilhados com terceiros.</p>
-    </form>
+    <a href="#lead-form-container" class="btn btn-primary" style="margin-top:32px;padding:16px 32px;font-size:1rem;">Preencher o formulário de triagem</a>
 <script>
 (function () {
   function get_or_create_msg(form) {
