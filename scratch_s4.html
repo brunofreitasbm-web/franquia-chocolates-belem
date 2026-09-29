@@ -416,14 +416,18 @@
     .faq-plus { transition: transform .25s var(--ease-out); }
     details[open] .faq-plus { transform: rotate(45deg); }
     @media (max-width: 960px) {
-      .hero-grid { grid-template-columns: 1fr !important; }
-      .intro-grid { grid-template-columns: 1fr !important; }
-      .units-grid { grid-template-columns: 1fr !important; }
-      .footer-grid { grid-template-columns: 1fr !important; }
+      .hero-grid { grid-template-columns: minmax(0,1fr) !important; }
+      .intro-grid { grid-template-columns: minmax(0,1fr) !important; }
+      .units-grid { grid-template-columns: minmax(0,1fr) !important; }
+      .footer-grid { grid-template-columns: minmax(0,1fr) !important; }
+      .hero-grid > *, .intro-grid > *, .units-grid > *, .footer-grid > * { min-width: 0; }
     }
     @media (max-width: 760px) {
       .nav-links { display: none !important; }
       .split-row { flex-direction: column !important; }
+      .season-grid { grid-template-columns: minmax(0,1fr) !important; }
+      form [style*="grid-template-columns:1fr 1fr"], form [style*="grid-template-columns: 1fr 1fr"] { grid-template-columns: minmax(0,1fr) !important; }
+      form input, form select, form textarea, form sc-raw-select { min-width: 0; max-width: 100%; }
       .logo-subtitle { display: none !important; }
       .logo-link { min-width: 0; }
       .logo-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
