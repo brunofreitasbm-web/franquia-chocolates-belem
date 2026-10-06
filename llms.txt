@@ -1,0 +1,15 @@
+# Repasse de Franquia - Chocolates e Presentes (Belém/PA)
+
+> Landing page de um franqueado que repassa diretamente, sem intermediários, uma operação estruturada de chocolates e presentes no bairro da Marambaia, em Belém, Pará.
+
+## Fatos principais
+- Tipo: repasse direto de operação de franquia (ramo de chocolates e presentes).
+- Local: bairro da Marambaia, Belém/PA, Brasil (endereço exato só após triagem).
+- Quem conduz: o franqueado atual, sem corretores ou intermediários.
+- Processo: formulário de triagem; retorno em até 2 dias úteis.
+- Dados financeiros detalhados e identificação da unidade: somente após triagem e termo de confidencialidade.
+- A transferência depende de aprovação da franqueadora.
+- Idioma: português (pt-BR).
+
+## Páginas
+- [Página principal](https://franquia-chocolates-belem.netlify.app/): oportunidade, como funciona, FAQ e formulário de triagem.
