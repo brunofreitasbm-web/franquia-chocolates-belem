@@ -46,6 +46,12 @@
   status = 404
   force = true
 
+[[redirects]]
+  from = "/instagram-posts/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
 # CSS/JS legados e exports de design na raiz: não são usados pela página
 # e não devem aparecer em busca de imagens/arquivos.
 [[headers]]
