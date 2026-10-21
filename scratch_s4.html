@@ -396,6 +396,8 @@
       --ease-out: cubic-bezier(.16,1,.3,1);
     }
     * { box-sizing: border-box; }
+    html { scroll-padding-top: 76px; -webkit-text-size-adjust: 100%; }
+    a, button, summary { touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
     body { margin: 0; font-family: var(--font-body); color: var(--color-ink); background: var(--color-cream); line-height: 1.6; }
     h1,h2,h3 { font-family: var(--font-display); margin: 0 0 .5em; line-height: 1.12; font-weight: 600; letter-spacing: -.015em; text-wrap: balance; }
     p { margin: 0 0 1em; color: var(--color-ink-soft); }
@@ -432,6 +434,37 @@
       .logo-link { min-width: 0; }
       .logo-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
       .header-cta { padding: 9px 16px !important; font-size: .82rem !important; flex: none; }
+      /* cabeçalho enxuto: logo + CTA cabem em 360px sem cortar o nome */
+      header > div { padding: 10px 16px !important; gap: 10px !important; }
+      header .logo-link > span:first-child { width: 36px !important; height: 36px !important; }
+      header .logo-link span[style*="font-size:1.02rem"] { font-size: .95rem !important; }
+      .header-cta { padding: 0 14px !important; font-size: .8rem !important; min-height: 44px; flex: none; }
+      /* seletor de unidade: duas abas lado a lado, sem estourar a largura */
+      .unit-switcher-wrap { padding: 0 16px !important; margin-bottom: 20px !important; }
+      .unit-tab-btn { flex-direction: column; gap: 2px !important; padding: 10px 6px !important; min-width: 0; line-height: 1.2; }
+      .unit-tab-btn .unit-badge-pill { display: none; }
+      .unit-tab-btn .unit-tab-price { white-space: nowrap; font-size: .98rem !important; }
+      /* seções: gutter de 16px e hero mais compacto */
+      #topo { padding-top: 20px !important; padding-bottom: 36px !important; }
+      #topo > div, section > div[style*="max-width"] { padding-left: 16px !important; padding-right: 16px !important; }
+      .hero-grid { gap: 24px !important; }
+      /* indicadores do hero: uma linha por indicador em vez de 3 colunas espremidas */
+      .hero-grid [style*="repeat(3, 1fr)"] { grid-template-columns: minmax(0,1fr) !important; gap: 0 !important; }
+      .hero-grid [style*="repeat(3, 1fr)"] > div { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; border-left: 0 !important; padding: 10px 0 !important; }
+      .hero-grid [style*="repeat(3, 1fr)"] > div + div { border-top: 1px solid rgba(36,31,28,.1); }
+      .hero-grid [style*="repeat(3, 1fr)"] > div > span:last-child { text-align: right; white-space: nowrap; }
+      /* alvo de toque dos pontos do carrossel sem mudar o desenho */
+      .hero-grid button[aria-label] { position: relative; }
+      .hero-grid button[aria-label]::after { content: ""; position: absolute; inset: -12px -4px; }
+      /* formulário: 16px evita o zoom automático do iOS; 48px de altura para o dedo */
+      #lead-form-container > div { padding: 20px 18px !important; }
+      form input, form select, form textarea, form sc-raw-select { font-size: 16px !important; min-height: 48px; }
+      form button[type=button], form button[type=submit] { min-height: 52px; text-wrap: balance; }
+      /* passos e CTA final */
+      #como-funciona li { gap: 16px !important; }
+      #como-funciona li > span:first-child { width: 1.2ch !important; }
+      #como-funciona ol { margin-top: 28px !important; }
+      a.btn.btn-primary:not(.header-cta) { display: flex; width: 100%; text-align: center; padding: 16px 20px !important; }
     }
   
     /* Unit Switcher Styles */
