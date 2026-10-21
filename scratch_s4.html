@@ -1073,6 +1073,13 @@
       body: to_query_string(payload)
     }).then(function (res) {
       if (!res.ok) throw new Error('status ' + res.status);
+      // NOVO: só dispara depois que o Netlify confirmou o envio
+      if (window.gtag) gtag('event', 'generate_lead', {
+        form_name: 'repasse-cacau-show',
+        investimento: investimento,
+        prazo: prazo,
+        currency: 'BRL'
+      });
       form.innerHTML = '<p style="font-family:var(--font-display);font-size:1.3rem;font-weight:600;color:var(--color-cream);margin:0 0 8px;">Cadastro recebido!</p><p style="margin:0;color:rgba(244,239,233,.8);">Vou revisar suas respostas e retorno em breve com o próximo passo.</p>';
     }).catch(function () {
       btn.disabled = false;
