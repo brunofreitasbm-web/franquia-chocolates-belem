@@ -7,11 +7,11 @@
 <body>
 <x-dc>
 <helmet>
-  <title>Franquia Cacau Show à venda em Belém/PA | Repasse por R$ 210 mil</title>
-  <meta name="description" content="Repasse direto do franqueado: loja Cacau Show em operação na Marambaia, Belém/PA. R$ 1,23 milhão de faturamento em 12 meses. DRE completo após triagem.">
+  <title>Franquias Cacau Show à venda em Belém/PA | Marambaia e Icoaraci</title>
+  <meta name="description" content="Repasse direto do franqueado: lojas Cacau Show em operação na Marambaia (R$ 210 mil) e em Icoaraci (R$ 165 mil), Belém/PA. DRE completo após triagem.">
   <link rel="canonical" href="https://franquia-chocolates-belem.netlify.app/">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-  <meta property="og:title" content="Repasse de Franquia Cacau Show — Belém/PA (Marambaia)">
+  <meta property="og:title" content="Repasse de Franquias Cacau Show — Belém/PA (Marambaia e Icoaraci)">
   <meta property="og:description" content="Repasse direto do franqueado, sem intermediários. Loja Cacau Show já montada e vendendo na Marambaia, com processo formal de transferência pela franqueadora.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
@@ -22,7 +22,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Repasse de loja Cacau Show em operação em Belém/PA, por R$ 210 mil">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Repasse de Franquia Cacau Show — Belém/PA (Marambaia)">
+  <meta name="twitter:title" content="Repasse de Franquias Cacau Show — Belém/PA (Marambaia e Icoaraci)">
   <meta name="twitter:description" content="Repasse direto do franqueado, sem intermediários. Loja Cacau Show já montada e vendendo na Marambaia, com processo formal de transferência pela franqueadora.">
   <meta name="twitter:image" content="https://franquia-chocolates-belem.netlify.app/images/og-card.jpg">
   <meta name="theme-color" content="#f4efe9">
@@ -34,7 +34,7 @@
         "@type": "WebPage",
         "@id": "https://franquia-chocolates-belem.netlify.app/#webpage",
         "url": "https://franquia-chocolates-belem.netlify.app/",
-        "name": "Franquia Cacau Show à venda em Belém/PA | Repasse por R$ 210 mil",
+        "name": "Franquias Cacau Show à venda em Belém/PA | Marambaia e Icoaraci",
         "description": "Repasse direto do franqueado: loja Cacau Show em operação na Marambaia, Belém/PA. R$ 1,23 milhão de faturamento em 12 meses. DRE completo após triagem.",
         "inLanguage": "pt-BR",
         "primaryImageOfPage": "https://franquia-chocolates-belem.netlify.app/images/og-card.jpg",
@@ -55,7 +55,7 @@
         "name": "Por que o endereço exato não aparece?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "A loja continua aberta e vendendo enquanto o repasse é conduzido. Endereço exato e DRE são compartilhados apenas com quem assina o termo de confidencialidade. Isso protege os funcionários e os clientes atuais de verem uma placa de vende-se na porta."
+          "text": "As duas lojas continuam abertas e vendendo enquanto o repasse é conduzido. Endereço exato e DRE completo são compartilhados apenas com quem assina o termo de confidencialidade. Isso protege os funcionários e os clientes atuais de verem uma placa de vende-se na porta."
         }
       },
       {
@@ -63,7 +63,7 @@
         "name": "Qual o valor do repasse e como é o pagamento?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "O valor de repasse é R$ 210 mil. Para comparar: montar uma loja Cacau Show deste padrão custa por volta de R$ 350 mil, sem contar os meses até inaugurar. A forma de pagamento é tratada diretamente comigo na conversa de triagem. O estoque do dia da transferência é vendido à parte, a preço de custo."
+          "text": "São duas operações disponíveis para transferência individual ou conjunta: a Unidade Marambaia por R$ 210 mil (montar uma nova custaria cerca de R$ 350 mil) e a Unidade Icoaraci por R$ 165 mil (montar uma nova custaria cerca de R$ 250 mil). A forma de pagamento é tratada diretamente comigo na conversa de triagem. O estoque do dia da transferência é vendido à parte, a preço de custo."
         }
       },
       {
@@ -433,10 +433,19 @@
       .logo-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
       .header-cta { padding: 9px 16px !important; font-size: .82rem !important; flex: none; }
     }
-  </style>
+  
+    /* Unit Switcher Styles */
+    .unit-tab-btn { background: transparent; color: var(--color-ink-soft); border: none; cursor: pointer; transition: all .2s ease; }
+    .unit-tab-btn .unit-badge-pill { background: rgba(36,31,28,.08); color: var(--color-ink-soft); transition: all .2s ease; }
+    .unit-tab-btn.active { background: #241f1c !important; color: #f4efe9 !important; box-shadow: 0 4px 14px rgba(36,31,28,.2); }
+    .unit-tab-btn.active .unit-badge-pill { background: rgba(217,168,127,.22) !important; color: #d9a87f !important; }
+    .unit-tab-btn.active .unit-tab-price { color: #d9a87f !important; }
+    [data-current-unit="marambaia"] .unit-view-icoaraci { display: none !important; }
+    [data-current-unit="icoaraci"] .unit-view-marambaia { display: none !important; }
+</style>
 </helmet>
 
-<div style="max-width:100%;overflow-x:clip;">
+<div id="repasse-root-wrapper" data-current-unit="marambaia" style="max-width:100%;overflow-x:clip;">
 
 
 <header style="position:sticky;top:0;z-index:50;background:rgba(244,239,233,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--color-rule);">
@@ -445,7 +454,7 @@
       <span style="width:40px;height:40px;flex:none;display:flex;align-items:center;justify-content:center;background:var(--color-accent);border-radius:6px;color:#fff;font-family:var(--font-display);font-weight:600;font-size:1.15rem;">R</span>
       <span style="font-family:var(--font-display);font-weight:600;font-size:1.02rem;color:var(--color-ink);display:flex;flex-direction:column;line-height:1.25;min-width:0;">
         <span class="logo-title">Repasse de Loja</span>
-        <small class="logo-subtitle" style="font-family:var(--font-body);font-weight:500;font-size:.68rem;color:var(--color-ink-soft);letter-spacing:.02em;">Franquia Cacau Show — Belém/PA</small>
+        <small class="logo-subtitle" style="font-family:var(--font-body);font-weight:500;font-size:.68rem;color:var(--color-ink-soft);letter-spacing:.02em;">Franquias Cacau Show — Belém/PA</small>
       </span>
     </a>
     <nav class="nav-links" style="display:flex;gap:18px;flex-wrap:wrap;white-space:nowrap;">
@@ -459,8 +468,27 @@
 </header>
 
 <section id="topo" style="border-bottom:1px solid var(--color-rule);background:linear-gradient(180deg, #f4efe9 0%, #ece3d8 100%);padding:36px 0 54px;">
+  
+  <!-- Unit Switcher Tabs -->
+  <div class="unit-switcher-wrap" style="max-width:1160px;margin:0 auto 26px;padding:0 24px;">
+    <div style="background:#fff;border:1px solid rgba(36,31,28,.14);border-radius:14px;padding:6px;display:flex;gap:8px;box-shadow:0 4px 16px rgba(0,0,0,.04);">
+      <button type="button" class="unit-tab-btn active" data-unit-target="marambaia" style="flex:1;display:flex;align-items:center;justify-content:center;gap:10px;padding:12px 16px;border-radius:10px;font-family:var(--font-body);font-size:.95rem;font-weight:700;">
+        <span class="unit-badge-pill" style="font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:3px 8px;border-radius:999px;">Loja 1</span>
+        <span>Marambaia</span>
+        <span class="unit-tab-price" style="font-family:var(--font-display);font-size:1.05rem;color:var(--color-accent);">R$ 210.000</span>
+      </button>
+      <button type="button" class="unit-tab-btn" data-unit-target="icoaraci" style="flex:1;display:flex;align-items:center;justify-content:center;gap:10px;padding:12px 16px;border-radius:10px;font-family:var(--font-body);font-size:.95rem;font-weight:700;">
+        <span class="unit-badge-pill" style="font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:3px 8px;border-radius:999px;">Loja 2</span>
+        <span>Icoaraci</span>
+        <span class="unit-tab-price" style="font-family:var(--font-display);font-size:1.05rem;color:var(--color-accent);">R$ 165.000</span>
+      </button>
+    </div>
+  </div>
+
   <div class="hero-grid" style="max-width:1160px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:1.05fr 0.95fr;gap:32px;align-items:start;">
     <div>
+      <!-- Marambaia Hero View -->
+      <div class="unit-view-marambaia">
       <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:16px;">
         <span style="display:inline-flex;align-items:center;gap:6px;padding:6px 14px;border-radius:999px;background:#241f1c;color:#f4efe9;font-size:.85rem;font-weight:700;letter-spacing:.03em;box-shadow:0 4px 12px rgba(36,31,28,.15);">
           <span style="color:#d9a87f;">PREÇO DE REPASSE:</span> R$ 210.000,00
@@ -513,6 +541,60 @@
           </div>
         </div>
       </div>
+      </div>
+
+      <!-- Icoaraci Hero View -->
+      <div class="unit-view-icoaraci">
+        <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:16px;">
+          <span style="display:inline-flex;align-items:center;gap:6px;padding:6px 14px;border-radius:999px;background:#241f1c;color:#f4efe9;font-size:.85rem;font-weight:700;letter-spacing:.03em;box-shadow:0 4px 12px rgba(36,31,28,.15);">
+            <span style="color:#d9a87f;">PREÇO DE REPASSE:</span> R$ 165.000,00
+          </span>
+          <span style="display:inline-flex;align-items:center;gap:6px;padding:6px 14px;border-radius:999px;background:#5c6b57;color:#fff;font-size:.8rem;font-weight:600;box-shadow:0 2px 8px rgba(92,107,87,.2);">
+            ✓ Fat. 12M: R$ 756 Mil
+          </span>
+          <span style="display:inline-flex;align-items:center;gap:6px;padding:6px 14px;border-radius:999px;background:var(--color-olive-bg);border:1px solid rgba(92,107,87,.35);color:var(--color-olive);font-size:.8rem;font-weight:600;">
+            Crescimento +20% YoY
+          </span>
+        </div>
+
+        <h1 style="font-size:clamp(2.1rem,4vw,3.1rem);max-width:18ch;margin-bottom:16px;line-height:1.15;">
+          Assuma uma loja Cacau Show que já vende em Belém (Icoaraci), por <span style="color:var(--color-accent);background:linear-gradient(120deg, rgba(156,91,50,.15), transparent);padding:2px 8px;border-radius:6px;">R$ 165.000</span>
+        </h1>
+
+        <p style="font-size:1.08rem;color:var(--color-ink-soft);max-width:52ch;line-height:1.6;margin-bottom:22px;">
+          Loja de rua na principal avenida comercial de Icoaraci, aberta e em operação. Faturamento de <strong>R$ 756 mil nos últimos 12 meses</strong>, pico de R$ 270 mil na Páscoa e aluguel comercial de apenas R$ 3.000/mês. Você assume uma operação que já funciona, em vez de montar uma do zero.
+        </p>
+
+        <div style="position:relative;height:230px;border-radius:12px;box-shadow:var(--shadow-soft);overflow:hidden;margin-bottom:20px;border:1px solid rgba(36,31,28,.1);background:#241f1c;">
+          <img id="icoaraci-img-0" src="images/unidade-icoaraci-fachada.jpg" alt="Fachada comercial da loja Cacau Show em Icoaraci, Belém/PA" width="1600" height="900" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .6s ease;opacity:1;">
+          <img id="icoaraci-img-1" src="images/unidade-icoaraci-interior.jpg" alt="Interior moderno e cafeteria da loja Cacau Show em Icoaraci" width="1600" height="900" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .6s ease;opacity:0;">
+          <div style="position:absolute;left:0;right:0;bottom:0;padding:12px 16px;background:linear-gradient(to top,rgba(0,0,0,.65),transparent);">
+            <span style="color:#fff;font-size:.82rem;font-weight:600;" id="icoaraci-img-label">Fachada Comercial — Unidade Belém (Icoaraci)</span>
+          </div>
+          <div style="position:absolute;right:14px;bottom:14px;display:flex;gap:6px;">
+            <button type="button" class="ico-dot active" data-idx="0" aria-label="Ver fachada" style="width:18px;height:7px;border-radius:999px;border:none;background:#fff;cursor:pointer;padding:0;transition:width .3s ease;"></button>
+            <button type="button" class="ico-dot" data-idx="1" aria-label="Ver interior" style="width:7px;height:7px;border-radius:999px;border:none;background:rgba(255,255,255,.5);cursor:pointer;padding:0;transition:width .3s ease;"></button>
+          </div>
+        </div>
+
+        <div style="background:#fff;border:1px solid rgba(36,31,28,.12);border-radius:12px;padding:20px 22px;box-shadow:0 4px 14px rgba(0,0,0,.05);">
+          <div style="display:grid;grid-template-columns:repeat(3, 1fr);gap:12px;text-align:left;">
+            <div>
+              <span style="font-size:.72rem;color:var(--color-ink-soft);display:block;text-transform:uppercase;letter-spacing:.04em;font-weight:600;">Faturamento 12M</span>
+              <span style="font-family:var(--font-display);font-weight:700;font-size:1.25rem;color:var(--color-ink);display:block;margin-top:2px;">R$ 756 Mil</span>
+            </div>
+            <div style="border-left:1px solid rgba(36,31,28,.1);padding-left:12px;">
+              <span style="font-size:.72rem;color:var(--color-ink-soft);display:block;text-transform:uppercase;letter-spacing:.04em;font-weight:600;">Pico Mensal (Páscoa)</span>
+              <span style="font-family:var(--font-display);font-weight:700;font-size:1.25rem;color:var(--color-accent);display:block;margin-top:2px;">R$ 269.705,89</span>
+            </div>
+            <div style="border-left:1px solid rgba(36,31,28,.1);padding-left:12px;">
+              <span style="font-size:.72rem;color:var(--color-ink-soft);display:block;text-transform:uppercase;letter-spacing:.04em;font-weight:600;">Aluguel Comercial</span>
+              <span style="font-family:var(--font-display);font-weight:700;font-size:1.25rem;color:var(--color-olive);display:block;margin-top:2px;">R$ 3.000/mês</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <div id="lead-form-container">
@@ -525,7 +607,7 @@
         </div>
         
         <h2 style="font-size:1.3rem;color:#f4efe9;margin-bottom:6px;line-height:1.25;">
-          Receba as informações da loja de R$ 210 mil
+          Receba as informações das lojas em Belém
         </h2>
         <p style="font-size:.84rem;color:rgba(244,239,233,.75);margin-bottom:18px;">
           Preencha abaixo. Eu mesmo reviso as respostas e retorno com o próximo passo.
@@ -535,7 +617,9 @@
           <div style="display:flex;flex-direction:column;gap:4px;">
             <label for="hero-oportunidade" style="font-size:.78rem;font-weight:600;color:rgba(244,239,233,.9);">Oportunidade *</label>
             <sc-raw-select id="hero-oportunidade" name="oportunidade" style="padding:9px 12px;border-radius:6px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.96);font-family:var(--font-body);font-size:.88rem;color:var(--color-ink);">
-              <option value="Unidade Belém (Marambaia) - R$ 210.000">Unidade Belém (Marambaia) — R$ 210.000,00</option>
+              <option value="Qualquer uma das duas">Qualquer uma das duas (avaliar na conversa)</option>
+              <option value="Unidade Belém (Marambaia) - R$ 210.000" selected>Unidade Belém (Marambaia) — R$ 210.000,00</option>
+              <option value="Unidade Belém (Icoaraci) - R$ 165.000">Unidade Belém (Icoaraci) — R$ 165.000,00</option>
             </sc-raw-select>
           </div>
 
@@ -560,8 +644,8 @@
               <label for="hero-investimento" style="font-size:.78rem;font-weight:600;color:rgba(244,239,233,.9);">Capital Disponível *</label>
               <sc-raw-select id="hero-investimento" name="investimento" style="padding:9px 12px;border-radius:6px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.96);font-family:var(--font-body);font-size:.85rem;color:var(--color-ink);">
                 <option>Selecione a faixa</option>
-                <option selected>R$ 150 mil a R$ 250 mil</option>
-                <option>Até R$ 150 mil</option>
+                <option>Até R$ 165 mil</option>
+                <option selected>R$ 165 mil a R$ 250 mil</option>
                 <option>Acima de R$ 250 mil</option>
               </sc-raw-select>
             </div>
@@ -585,7 +669,7 @@
           </div>
 
           <button type="button" id="repasse-lead-submit-hero" class="btn btn-primary repasse-lead-submit-btn" style="width:100%;padding:14px;font-size:.95rem;font-weight:700;margin-top:4px;background:var(--color-accent);color:#fff;border:none;border-radius:8px;cursor:pointer;box-shadow:0 4px 14px rgba(156,91,50,.4);">
-            Quero informações da loja de R$ 210 mil →
+            Quero informações sobre o repasse →
           </button>
           
           <p style="font-size:.72rem;color:rgba(244,239,233,.55);margin:2px 0 0;text-align:center;">
@@ -599,33 +683,65 @@
 
 <section style="padding:36px 0;background:#fff;border-bottom:1px solid var(--color-rule);">
   <div style="max-width:1160px;margin:0 auto;padding:0 24px;">
-    <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));gap:20px;">
-      
-      <div style="background:var(--color-cream);padding:20px;border-radius:12px;border:1px solid rgba(36,31,28,.08);">
-        <div style="font-size:1.5rem;margin-bottom:6px;" aria-hidden="true">💰</div>
-        <h3 style="font-size:1.02rem;margin-bottom:4px;color:var(--color-ink);">R$ 210 mil, contra cerca de R$ 350 mil de uma loja nova</h3>
-        <p style="font-size:.86rem;margin:0;color:var(--color-ink-soft);line-height:1.5;">Montar uma loja Cacau Show deste padrão custa por volta de R$ 350 mil, mais os meses até inaugurar. Esta já está montada, aprovada e vendendo.</p>
-      </div>
+    
+    <!-- Cards Marambaia -->
+    <div class="unit-view-marambaia">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));gap:20px;">
+        <div style="background:var(--color-cream);padding:20px;border-radius:12px;border:1px solid rgba(36,31,28,.08);">
+          <div style="font-size:1.5rem;margin-bottom:6px;" aria-hidden="true">💰</div>
+          <h3 style="font-size:1.02rem;margin-bottom:4px;color:var(--color-ink);">R$ 210 mil, contra cerca de R$ 350 mil de uma loja nova</h3>
+          <p style="font-size:.86rem;margin:0;color:var(--color-ink-soft);line-height:1.5;">Montar uma loja Cacau Show deste padrão custa por volta de R$ 350 mil, mais os meses até inaugurar. Esta já está montada, aprovada e vendendo.</p>
+        </div>
 
-      <div style="background:var(--color-cream);padding:20px;border-radius:12px;border:1px solid rgba(36,31,28,.08);">
-        <div style="font-size:1.5rem;margin-bottom:6px;" aria-hidden="true">📈</div>
-        <h3 style="font-size:1.02rem;margin-bottom:4px;color:var(--color-ink);">Páscoa: um terço do ano em um mês</h3>
-        <p style="font-size:.86rem;margin:0;color:var(--color-ink-soft);line-height:1.5;"><strong>R$ 400.897,14</strong> faturados na Páscoa de 2026. É o pico da operação e o motivo de planejar o ano em torno dela. Quem assume já entra com esse calendário.</p>
-      </div>
+        <div style="background:var(--color-cream);padding:20px;border-radius:12px;border:1px solid rgba(36,31,28,.08);">
+          <div style="font-size:1.5rem;margin-bottom:6px;" aria-hidden="true">📈</div>
+          <h3 style="font-size:1.02rem;margin-bottom:4px;color:var(--color-ink);">Páscoa: um terço do ano em um mês</h3>
+          <p style="font-size:.86rem;margin:0;color:var(--color-ink-soft);line-height:1.5;"><strong>R$ 400.897,14</strong> faturados na Páscoa de 2026. É o pico da operação e o motivo de planejar o ano em torno dela. Quem assume já entra com esse calendário.</p>
+        </div>
 
-      <div style="background:var(--color-cream);padding:20px;border-radius:12px;border:1px solid rgba(36,31,28,.08);">
-        <div style="font-size:1.5rem;margin-bottom:6px;" aria-hidden="true">🏬</div>
-        <h3 style="font-size:1.02rem;margin-bottom:4px;color:var(--color-ink);">Ponto e estrutura prontos</h3>
-        <p style="font-size:.86rem;margin:0;color:var(--color-ink-soft);line-height:1.5;">Loja de rua na Marambaia, com contrato de aluguel transferível, mobília, equipamentos e climatização. Nada para reformar.</p>
-      </div>
+        <div style="background:var(--color-cream);padding:20px;border-radius:12px;border:1px solid rgba(36,31,28,.08);">
+          <div style="font-size:1.5rem;margin-bottom:6px;" aria-hidden="true">🏬</div>
+          <h3 style="font-size:1.02rem;margin-bottom:4px;color:var(--color-ink);">Ponto e estrutura prontos</h3>
+          <p style="font-size:.86rem;margin:0;color:var(--color-ink-soft);line-height:1.5;">Loja de rua na Marambaia, com contrato de aluguel transferível, mobília, equipamentos e climatização. Nada para reformar.</p>
+        </div>
 
-      <div style="background:var(--color-cream);padding:20px;border-radius:12px;border:1px solid rgba(36,31,28,.08);">
-        <div style="font-size:1.5rem;margin-bottom:6px;" aria-hidden="true">🤝</div>
-        <h3 style="font-size:1.02rem;margin-bottom:4px;color:var(--color-ink);">Loja aberta durante todo o repasse</h3>
-        <p style="font-size:.86rem;margin:0;color:var(--color-ink-soft);line-height:1.5;">A operação não para: continua vendendo enquanto a triagem, a aprovação da franqueadora e a transferência acontecem. Você assume com a loja funcionando.</p>
+        <div style="background:var(--color-cream);padding:20px;border-radius:12px;border:1px solid rgba(36,31,28,.08);">
+          <div style="font-size:1.5rem;margin-bottom:6px;" aria-hidden="true">🤝</div>
+          <h3 style="font-size:1.02rem;margin-bottom:4px;color:var(--color-ink);">Loja aberta durante todo o repasse</h3>
+          <p style="font-size:.86rem;margin:0;color:var(--color-ink-soft);line-height:1.5;">A operação não para: continua vendendo enquanto a triagem, a aprovação da franqueadora e a transferência acontecem. Você assume com a loja funcionando.</p>
+        </div>
       </div>
-
     </div>
+
+    <!-- Cards Icoaraci -->
+    <div class="unit-view-icoaraci">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));gap:20px;">
+        <div style="background:var(--color-cream);padding:20px;border-radius:12px;border:1px solid rgba(36,31,28,.08);">
+          <div style="font-size:1.5rem;margin-bottom:6px;" aria-hidden="true">💰</div>
+          <h3 style="font-size:1.02rem;margin-bottom:4px;color:var(--color-ink);">R$ 165 mil, contra cerca de R$ 250 mil de uma loja nova</h3>
+          <p style="font-size:.86rem;margin:0;color:var(--color-ink-soft);line-height:1.5;">Montar uma loja Cacau Show deste padrão custa por volta de R$ 250 mil, mais os meses até inaugurar. Esta já está montada, aprovada e vendendo por R$ 165 mil.</p>
+        </div>
+
+        <div style="background:var(--color-cream);padding:20px;border-radius:12px;border:1px solid rgba(36,31,28,.08);">
+          <div style="font-size:1.5rem;margin-bottom:6px;" aria-hidden="true">📈</div>
+          <h3 style="font-size:1.02rem;margin-bottom:4px;color:var(--color-ink);">Pico da Páscoa: R$ 269.705,89</h3>
+          <p style="font-size:.86rem;margin:0;color:var(--color-ink-soft);line-height:1.5;">Campanha de Páscoa completa somou <strong>R$ 385 mil</strong>, gerando mais de R$ 108 mil de lucro operacional no período. Quem assume entra com esse calendário pronto.</p>
+        </div>
+
+        <div style="background:var(--color-cream);padding:20px;border-radius:12px;border:1px solid rgba(36,31,28,.08);">
+          <div style="font-size:1.5rem;margin-bottom:6px;" aria-hidden="true">🏬</div>
+          <h3 style="font-size:1.02rem;margin-bottom:4px;color:var(--color-ink);">Ponto comercial na avenida principal (R$ 3k/mês)</h3>
+          <p style="font-size:.86rem;margin:0;color:var(--color-ink-soft);line-height:1.5;">Loja de rua em corredor comercial com aluguel de apenas R$ 3.000/mês (~4,7% da receita), mobília completa, climatização, cafeteria montada e padrão da rede.</p>
+        </div>
+
+        <div style="background:var(--color-cream);padding:20px;border-radius:12px;border:1px solid rgba(36,31,28,.08);">
+          <div style="font-size:1.5rem;margin-bottom:6px;" aria-hidden="true">🚀</div>
+          <h3 style="font-size:1.02rem;margin-bottom:4px;color:var(--color-ink);">Operação em expansão: +20% vendas e +215% lucro</h3>
+          <p style="font-size:.86rem;margin:0;color:var(--color-ink-soft);line-height:1.5;">Comparativo 2026 vs 2025 comprova aceleração constante e consolidação de clientes. A operação não para durante todo o repasse.</p>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -634,7 +750,7 @@
     <h2 style="font-size:clamp(1.8rem,3.2vw,2.6rem);max-width:20ch;">Por que estou repassando esta operação</h2>
     <div class="intro-grid" style="display:grid;grid-template-columns:.9fr 1.1fr;gap:{{ gapLg }};align-items:start;margin-top:40px;">
       <div>
-        <p>Sou franqueado Cacau Show há 4 anos e respondo pela loja da Marambaia. Estou encerrando meu ciclo como franqueado para me dedicar a um novo projeto em outro setor, e estou repassando minhas operações uma a uma, de forma organizada. Esta é a unidade disponível agora.</p>
+        <p>Sou franqueado Cacau Show há 4 anos e respondo pelas lojas da Marambaia e de Icoaraci em Belém. Estou encerrando meu ciclo como franqueado para me dedicar a um novo projeto em outro setor, e estou repassando minhas operações de forma organizada. Ambas estão disponíveis para transferência individual ou conjunta.</p>
         <p>O repasse é direto: sem placa de "vende-se", sem corretor, sem terceiros no meio. Sou eu que respondo pelo processo do início ao fim, e a loja segue aberta e vendendo enquanto ele acontece.</p>
         <p style="font-family:var(--font-display);font-size:1.15rem;color:var(--color-ink);margin-top:28px;">— O franqueado atual
           <small style="display:block;font-family:var(--font-body);font-weight:500;font-size:.82rem;color:var(--color-ink-soft);margin-top:4px;">Repassando diretamente, sem intermediários</small>
@@ -749,13 +865,13 @@
         <summary style="font-weight:600;color:var(--color-ink);padding:20px 36px 20px 0;position:relative;">Por que o endereço exato não aparece?
           <span class="faq-plus" style="position:absolute;right:4px;top:50%;width:14px;height:14px;margin-top:-7px;background:var(--color-accent);-webkit-mask:url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' sc-camel-view-box='0 0 14 14'%3E%3Cpath d='M7 1v12M1 7h12' stroke='%23000' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E&quot;) center/contain no-repeat;mask:url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' sc-camel-view-box='0 0 14 14'%3E%3Cpath d='M7 1v12M1 7h12' stroke='%23000' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E&quot;) center/contain no-repeat;"></span>
         </summary>
-        <p style="margin:0 0 20px;max-width:62ch;">A loja continua aberta e vendendo enquanto o repasse é conduzido. Endereço exato e DRE são compartilhados apenas com quem assina o termo de confidencialidade. Isso protege os funcionários e os clientes atuais de verem uma placa de vende-se na porta.</p>
+        <p style="margin:0 0 20px;max-width:62ch;">As duas lojas continuam abertas e vendendo enquanto o repasse é conduzido. Endereço exato e DRE completo são compartilhados apenas com quem assina o termo de confidencialidade. Isso protege os funcionários e os clientes atuais de verem uma placa de vende-se na porta.</p>
       </details>
       <details style="border-bottom:1px solid var(--color-rule);">
         <summary style="font-weight:600;color:var(--color-ink);padding:20px 36px 20px 0;position:relative;">Qual o valor do repasse e como é o pagamento?
           <span class="faq-plus" style="position:absolute;right:4px;top:50%;width:14px;height:14px;margin-top:-7px;background:var(--color-accent);-webkit-mask:url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' sc-camel-view-box='0 0 14 14'%3E%3Cpath d='M7 1v12M1 7h12' stroke='%23000' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E&quot;) center/contain no-repeat;mask:url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' sc-camel-view-box='0 0 14 14'%3E%3Cpath d='M7 1v12M1 7h12' stroke='%23000' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E&quot;) center/contain no-repeat;"></span>
         </summary>
-        <p style="margin:0 0 20px;max-width:62ch;">O valor de repasse é R$ 210 mil. Para comparar: montar uma loja Cacau Show deste padrão custa por volta de R$ 350 mil, sem contar os meses até inaugurar. A forma de pagamento é tratada diretamente comigo na conversa de triagem. O estoque do dia da transferência é vendido à parte, a preço de custo.</p>
+        <p style="margin:0 0 20px;max-width:62ch;">São duas operações disponíveis para transferência individual ou conjunta: a Unidade Marambaia por R$ 210 mil (montar uma nova custaria cerca de R$ 350 mil) e a Unidade Icoaraci por R$ 165 mil (montar uma nova custaria cerca de R$ 250 mil). A forma de pagamento é tratada diretamente comigo na conversa de triagem. O estoque do dia da transferência é vendido à parte, a preço de custo.</p>
       </details>
       <details style="border-bottom:1px solid var(--color-rule);">
         <summary style="font-weight:600;color:var(--color-ink);padding:20px 36px 20px 0;position:relative;">O que está incluso no repasse?
@@ -904,6 +1020,79 @@
     });
   });
 })();
+
+// Unit Switcher & Icoaraci Photo Slider
+(function () {
+  function setUnit(unit) {
+    var wrapper = document.getElementById('repasse-root-wrapper') || document.body;
+    wrapper.setAttribute('data-current-unit', unit);
+    
+    var btns = document.querySelectorAll('.unit-tab-btn');
+    btns.forEach(function (b) {
+      if (b.getAttribute('data-unit-target') === unit) {
+        b.classList.add('active');
+      } else {
+        b.classList.remove('active');
+      }
+    });
+    
+    var sel = document.getElementById('hero-oportunidade');
+    if (sel && sel.value !== 'Qualquer uma das duas') {
+      if (unit === 'marambaia') {
+        sel.value = 'Unidade Belém (Marambaia) - R$ 210.000';
+      } else if (unit === 'icoaraci') {
+        sel.value = 'Unidade Belém (Icoaraci) - R$ 165.000';
+      }
+    }
+  }
+
+  document.addEventListener('click', function (e) {
+    var btn = e.target && e.target.closest ? e.target.closest('.unit-tab-btn') : null;
+    if (btn) {
+      var target = btn.getAttribute('data-unit-target');
+      if (target) {
+        setUnit(target);
+        if (history.replaceState) {
+          history.replaceState(null, null, '#' + target);
+        }
+      }
+    }
+    
+    var dot = e.target && e.target.closest ? e.target.closest('.ico-dot') : null;
+    if (dot) {
+      var idx = parseInt(dot.getAttribute('data-idx') || '0', 10);
+      var img0 = document.getElementById('icoaraci-img-0');
+      var img1 = document.getElementById('icoaraci-img-1');
+      var label = document.getElementById('icoaraci-img-label');
+      var dots = document.querySelectorAll('.ico-dot');
+      if (img0 && img1) {
+        img0.style.opacity = idx === 0 ? '1' : '0';
+        img1.style.opacity = idx === 1 ? '1' : '0';
+        if (label) {
+          label.textContent = idx === 0 
+            ? 'Fachada Comercial — Unidade Belém (Icoaraci)' 
+            : 'Interior e Cafeteria — Unidade Belém (Icoaraci)';
+        }
+        dots.forEach(function (d, i) {
+          if (i === idx) {
+            d.style.width = '18px';
+            d.style.background = '#fff';
+          } else {
+            d.style.width = '7px';
+            d.style.background = 'rgba(255,255,255,.5)';
+          }
+        });
+      }
+    }
+  });
+
+  if (window.location.hash === '#icoaraci') {
+    setUnit('icoaraci');
+  } else {
+    setUnit('marambaia');
+  }
+})();
+
 </script>
 
   </div>
@@ -913,7 +1102,7 @@
   <div class="footer-grid" style="max-width:1160px;margin:0 auto;padding:0 24px 32px;display:grid;grid-template-columns:1.4fr 1fr;gap:32px;border-bottom:1px solid rgba(255,255,255,.1);">
     <div>
       <span style="width:40px;height:40px;display:flex;align-items:center;justify-content:center;background:var(--color-accent);border-radius:6px;color:#fff;font-family:var(--font-display);font-weight:600;font-size:1.15rem;">R</span>
-      <p style="color:rgba(244,239,233,.72);margin:12px 0 0;max-width:46ch;">Repasse direto do franqueado: loja Cacau Show em operação no bairro da Marambaia, em Belém/PA. Informações completas apenas após triagem e termo de confidencialidade.</p>
+      <p style="color:rgba(244,239,233,.72);margin:12px 0 0;max-width:46ch;">Repasse direto do franqueado: lojas Cacau Show em operação na Marambaia e em Icoaraci, Belém/PA. Informações completas apenas após triagem e termo de confidencialidade.</p>
     </div>
     <div>
       <h4 style="color:#d9a87f;font-family:var(--font-body);font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;margin:0 0 12px;">Contato</h4>
@@ -921,7 +1110,7 @@
     </div>
   </div>
   <div style="max-width:1160px;margin:0 auto;padding:20px 24px 0;font-size:.8rem;text-align:center;color:rgba(244,239,233,.6);">
-    <p>© 2026 Repasse direto do franqueado — loja Cacau Show, Belém/PA. Todos os direitos reservados.</p>
+    <p>© 2026 Repasse direto do franqueado — lojas Cacau Show, Belém/PA. Todos os direitos reservados.</p>
   </div>
 </footer>
 

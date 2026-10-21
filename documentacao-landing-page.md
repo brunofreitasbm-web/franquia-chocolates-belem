@@ -99,37 +99,33 @@ A antiga seção "Perfis de investidor" foi fundida nas fichas: cada unidade tra
 
 A headline nomeia o setor (chocolates e presentes) sem citar marca, já filtrando quem não tem interesse no segmento.
 
-### 4.2 Ficha da unidade
+### 4.2 Alternador de Unidades e Fichas
 
-Ficha focada na unidade de rua no bairro da Marambaia em Belém/PA.
+A página possui um seletor no topo que permite ao interessado alternar dinamicamente entre as duas operações:
+- **Loja Marambaia (Belém/PA):** R$ 210.000 (Fat. 12M: R$ 1,23 Mi · Páscoa: R$ 400k)
+- **Loja Icoaraci (Belém/PA):** R$ 165.000 (Fat. 12M: R$ 756 Mil · Páscoa: R$ 270k · Crescimento YoY: +20% vendas / +215% lucro op. · Aluguel: R$ 3.000/mês)
 
-A ficha traz: tag de categoria, título, localização ("bairro da Marambaia em Belém/PA"), bullets de ponto forte, bloco de indicadores, linha de perfil ideal ("para quem faz sentido"), valor de aquisição e CTA próprio. O CTA carrega `data-unit`, que pré-seleciona a unidade no formulário via JS.
+Ao alternar a aba:
+- O título, badges e números do Hero são atualizados.
+- As fotos reais de cada loja são exibidas.
+- Os 4 cards de destaque e os números de sazonalidade se adaptam à unidade selecionada.
+- O campo de oportunidade no formulário seleciona a unidade correspondente por padrão.
 
 ---
 
 ## 5. Formulário de triagem
 
-`name="repasse-operacoes"`, processado por **Netlify Forms** (`data-netlify="true"`), com honeypot anti-spam (`netlify-honeypot="bot-field"`).
+Processado por **Netlify Forms** (`data-netlify="true"`).
 
-| Campo | `name` | Obrigatório | Tipo |
+| Campo | `name` | Obrigatório | Opções |
 |---|---|---|---|
-| Unidade de interesse | `unidade` | Sim | select (Loja Belém - Bairro Marambaia) |
+| Oportunidade | `oportunidade` | Sim | Qualquer uma das duas (avaliar na conversa) / Unidade Belém (Marambaia) — R$ 210.000 / Unidade Belém (Icoaraci) — R$ 165.000 |
 | Nome completo | `nome` | Sim | text |
-| E-mail | `email` | Sim | email |
 | Telefone / WhatsApp | `telefone` | Sim | tel |
-| Capital disponível | `capital` | Sim | select (3 faixas) |
-| Experiência prévia | `experiencia` | Não | select |
-| Motivação | `motivacao` | Não | select |
-| Prazo para concluir | `prazo` | Não | select |
-| Mensagem | `mensagem` | Não | textarea |
-| Ciência da aprovação | `ciencia` | Sim | checkbox |
-| Aceite de confidencialidade | `confidencialidade` | Sim | checkbox |
-
-**Botão:** "Enviar e agendar conversa" — nomeia o próximo passo em vez de "Enviar" solto, o que reduz a ansiedade de "e agora?".
-
-**Confirmação:** "Cadastro recebido / Vou revisar suas respostas e retornar em até 2 dias úteis com o próximo passo." Define prazo concreto em vez de "em breve" vago, e não promete algo que a operação não consegue cumprir.
-
-Os dois checkboxes obrigatórios existem para registrar ciência antes de qualquer envio de dado sensível — são parte do controle do funil, não formalidade.
+| E-mail | `email` | Sim | email |
+| Capital disponível | `investimento` | Sim | Até R$ 165 mil / R$ 165 mil a R$ 250 mil / Acima de R$ 250 mil |
+| Experiência prévia | `experiencia` | Não | Sim / Não |
+| Prazo para adquirir | `prazo` | Não | Imediato (Até 30 dias) / 30 a 90 dias / Mais de 90 dias |
 
 ---
 
@@ -137,7 +133,7 @@ Os dois checkboxes obrigatórios existem para registrar ciência antes de qualqu
 
 Vale para a página, para este repositório e para qualquer peça de campanha derivada.
 
-- ❌ Endereço exato da unidade (usar apenas "bairro da Marambaia em Belém/PA", sem citar o número ou rua exata)
+- ❌ Endereço exato das unidades (usar apenas "bairro da Marambaia em Belém/PA" e "principal avenida comercial de Icoaraci em Belém/PA", sem citar o número ou rua exata)
 - ❌ Códigos internos de loja
 - ❌ Valores de lucro, margem, aluguel, folha ou royalties
 - ❌ Situação de pendências, acordos ou dívidas com a franqueadora

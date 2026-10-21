@@ -23,26 +23,24 @@ O rascunho dizia: "negócio pronto, chega e começa a faturar, estruturado, dá 
 
 Uma frase. Sem adjetivo que não se prove.
 
-> **Uma loja de chocolates e presentes já montada e já vendendo na Marambaia, em Belém. Você assume uma operação que faturou R$ 1,23 milhão nos últimos 12 meses, em vez de abrir uma do zero.**
+> **Duas operações de chocolates e presentes já montadas e já vendendo em Belém (Marambaia e Icoaraci). Você assume uma operação estruturada com faturamento comprovado em vez de abrir uma do zero.**
 
-Versão curta (título, bio, primeira linha de post):
+Versões curtas (título, bio, primeira linha de post):
 
-> Assuma uma loja que já vende em Belém, por R$ 210 mil.
+> Assuma uma loja Cacau Show que já vende em Belém: Marambaia (R$ 210 mil) ou Icoaraci (R$ 165 mil).
 
 **Pode dizer:** já funciona, já vende, já tem histórico, sem obra, sem montagem, loja aberta durante todo o processo.
 **Não pode dizer:** dá lucro, retorno garantido, equipe treinada inclusa, estoque incluso, "inicia faturando imediatamente", "negócio pronto" sem qualificar o que está pronto.
 
 ---
 
-## 2. Mecanismo: por que a loja vende
+## 2. Mecanismo: por que as lojas vendem
 
 O comprador não compra a promessa, compra a razão de a promessa ser verdadeira.
 
-- **Ponto de rua em bairro residencial.** Público de classe B e C, fluxo diário constante do próprio bairro. Não depende de shopping, de turismo nem de evento.
+- **Pontos de rua em áreas comerciais consolidadas.** Marambaia (bairro residencial denso classe B e C) e Icoaraci (principal avenida comercial, corredor bancário/varejo com aluguel de R$ 3k/mês). Fluxo diário constante do próprio bairro. Não dependem de shopping nem de turismo.
 - **Produto de presente com calendário.** Ticket na casa dos R$ 100 e datas que puxam venda o ano inteiro: Páscoa, Dia das Mães, Dia dos Namorados, Natal.
-- **Sazonalidade dita de frente.** A Páscoa concentra cerca de um terço do faturamento do ano em um mês. Quem assume em qualquer mês planeja a próxima Páscoa desde o primeiro dia. Cerca de dois terços do faturamento vêm dos outros 11 meses.
-
-Indicador antigo "11 meses cobrem 145% do ponto de equilíbrio" só volta ao site se for reconferido no DRE atual.
+- **Sazonalidade dita de frente.** A Páscoa concentra cerca de um terço do faturamento do ano em um mês. Cerca de dois terços do faturamento vêm dos outros 11 meses.
 
 ---
 
@@ -51,105 +49,75 @@ Indicador antigo "11 meses cobrem 145% do ponto de equilíbrio" só volta ao sit
 Quatro pilares. A marca é nomeada; o sigilo protege endereço, funcionários, clientes e números.
 
 ### 3.1 A rede
-"Cacau Show, a maior franquia do Brasil: 1º lugar no ranking ABF 2026, com mais de 4.700 lojas." Fonte: Ranking das 50 Maiores Franquias da ABF, março de 2026: 4.713 lojas (O Boticário em 2º com 3.898, McDonald's em 3º com 2.774); a rede projeta 5.000 unidades. No site usar "mais de 4.700", que envelhece melhor; atualizar quando sair o próximo ranking. O argumento para o comprador não é o tamanho em si: é fornecimento, marketing e treinamento que já vêm da franqueadora, e liquidez futura de uma loja de marca líder.
+"Cacau Show, a maior franquia do Brasil: 1º lugar no ranking ABF 2026, com mais de 4.700 lojas." Fonte: Ranking das 50 Maiores Franquias da ABF, março de 2026: 4.713 lojas.
 
 ### 3.2 O vendedor
-Primeira pessoa, sem corretor, sem intermediário. Motivo completo e fechado:
+Primeira pessoa, sem corretor, sem intermediário:
 
-> "Sou franqueado Cacau Show há 4 anos e respondo pela loja da Marambaia. Estou encerrando meu ciclo como franqueado para me dedicar a um novo projeto em outro setor, e estou repassando minhas operações uma a uma, de forma organizada. Esta é a unidade disponível agora."
-
-Se perguntarem qual setor: responder na conversa, não na página.
+> "Sou franqueado Cacau Show há 4 anos e respondo pelas operações da Marambaia e de Icoaraci em Belém. Estou encerrando meu ciclo como franqueado para me dedicar a um novo projeto em outro setor, e estou repassando minhas operações de forma organizada. Ambas estão disponíveis para transferência individual ou conjunta."
 
 ### 3.3 O processo
-Cinco etapas, sempre nesta ordem: cadastro e triagem → conversa e termo de confidencialidade → DRE completo de 12 meses → aprovação formal da franqueadora → transferência com a loja funcionando.
+Cinco etapas: cadastro e triagem → conversa e termo de confidencialidade → DRE completo de 12 meses → aprovação formal da franqueadora → transferência com a loja funcionando.
 
-Frase-chave, usada no site e no Instagram:
+Frase-chave:
 
 > "Não prometo lucro em página pública. Mostro o DRE completo a quem passa na triagem."
 
-Substitui "100% auditado", que não é verificável.
+### 3.4 Números públicos auditados pelo DRE
 
-### 3.4 Números públicos (e só estes)
-| Indicador | Valor | Onde aparece |
-|---|---|---|
-| Faturamento últimos 12 meses | R$ 1,23 milhão | hero, sazonalidade, meta description |
-| Pico mensal (Páscoa 2026, 05/04) | R$ 400.897,14 | hero, cards, sazonalidade |
-| Valor de repasse | R$ 210.000 | título, hero, FAQ, formulário |
-| Custo estimado de loja nova (âncora) | cerca de R$ 350 mil | card 1, FAQ |
-| Rede | mais de 4.700 lojas, 1ª no ranking ABF 2026 | ponto de confiança |
+| Indicador | 🏬 Marambaia (Belém) | 🏬 Icoaraci (Belém) | Onde aparece |
+|---|---|---|---|
+| **Valor de repasse** | **R$ 210.000** | **R$ 165.000** | título, hero, cards, formulário |
+| **Custo estimado loja nova (âncora)** | cerca de R$ 350 mil | cerca de R$ 250 mil | card 1, FAQ |
+| **Faturamento últimos 12 meses (LTM)** | **R$ 1,23 milhão** | **R$ 756 mil** (R$ 756.341,47) | hero, sazonalidade, meta description |
+| **Pico mensal (Páscoa 2026)** | **R$ 400.897,14** | **R$ 269.705,89** (Campanha R$ 385k) | hero, cards, sazonalidade |
+| **Crescimento YoY (2026 vs 2025)** | Operação estabilizada | **+20,0% Fat. / +215% Lucro Op.** | cards, hero |
+| **Custo de ocupação (Aluguel fixo)** | Ponto comercial com contrato | **R$ 3.000,00 / mês** (~4,7% da receita) | cards, hero |
+| **Rede** | mais de 4.700 lojas, 1ª ranking ABF | mais de 4.700 lojas, 1ª ranking ABF | pontos de confiança |
 
-Nada de lucro, margem, aluguel, folha, royalties, ticket exato ou clientes/dia até nova decisão.
+Nada de lucro líquido, margem interna, folha ou royalties abertos antes da triagem.
 
 ---
 
-## 4. Oferta: o que R$ 210 mil compram
+## 4. Oferta: o que o repasse compra
 
-### Incluso
-- Ponto comercial de rua na Marambaia, com contrato de aluguel transferível. `[A CONFIRMAR: prazo restante do contrato]`
-- Mobília, equipamentos, climatização e padrão visual da rede. Sem obra, sem montagem.
-- Transferência formal do contrato de franquia ao comprador aprovado pela franqueadora. `[A CONFIRMAR: taxa de transferência, quem paga]`
+### Incluso em cada unidade
+- Ponto comercial de rua com contrato de aluguel transferível (Marambaia ou principal avenida comercial de Icoaraci).
+- Mobília, equipamentos, climatização, cafeteria e padrão visual da rede. Sem obra, sem montagem.
+- Transferência formal do contrato de franquia ao comprador aprovado pela franqueadora.
 - Histórico de vendas da loja e a clientela do bairro.
 
 ### À parte
-- Estoque do dia da transferência, vendido a preço de custo. `[A CONFIRMAR: valor médio de estoque, para o comprador dimensionar o giro]`
+- Estoque do dia da transferência, vendido a preço de custo.
 
 ### Sem garantia
-- Equipe. Os funcionários atuais estão na loja; manter ou não é decisão de quem assume. Nunca escrever "equipe inclusa" ou "equipe treinada" como benefício.
+- Equipe. Os funcionários atuais estão na loja; manter ou não é decisão de quem assume. Nunca escrever "equipe inclusa".
 
 ### Transição
-- "Fico disponível para orientar nas primeiras semanas." Informal, sem prazo. Nunca prometer "N dias de acompanhamento".
-
-### Condições
-- R$ 210 mil. Forma de pagamento tratada na triagem. Nunca publicar parcelamento ou desconto.
-
-### Âncora de preço
-- "Montar uma loja Cacau Show deste padrão custa por volta de R$ 350 mil, mais os meses até inaugurar. Esta custa R$ 210 mil e já está montada, aprovada e vendendo." Estimativa do franqueado; escrever sempre "por volta de" ou "cerca de", nunca como valor oficial da franqueadora.
-
-### Para quem é
-- Tem R$ 210 mil mais giro para estoque.
-- Vai estar na operação ou tem gerente de confiança.
-- Aceita passar pela aprovação da franqueadora.
-- Entende que a Páscoa define o ano e planeja em torno dela.
-
-### Para quem não é
-- Quem busca renda passiva sem presença.
-- Quem precisa de retorno no primeiro mês.
-- Quem não passaria na aprovação da rede.
+- "Fico disponível para orientar nas primeiras semanas."
 
 ---
 
-## 5. Textos-mestre do site (já aplicados em `scratch_s4.html` / `index.html`)
+## 5. Textos-mestre do site (aplicados em `scratch_s4.html` / `index.html`)
 
 | Elemento | Texto |
 |---|---|
-| Title | Repasse de Franquia Cacau Show por R$ 210 mil \| Belém/PA (Marambaia) |
-| Meta description | Sou franqueado Cacau Show e estou repassando diretamente uma loja já em operação no bairro da Marambaia, Belém/PA. Faturamento de R$ 1,23 milhão em 12 meses. Processo formal e DRE completo após triagem. |
-| Badges do hero | PREÇO DE REPASSE: R$ 210.000,00 · Fat. 12M: R$ 1,23 Milhão · Repasse Direto do Franqueado |
-| H1 | Assuma uma loja Cacau Show que já vende em Belém, por R$ 210.000 |
-| Sub | Loja de rua no bairro da Marambaia, aberta e em operação. Histórico de faturamento de R$ 1,23 milhão nos últimos 12 meses, com pico de R$ 400 mil na Páscoa. Você assume uma operação que já funciona, em vez de montar uma do zero. |
-| Indicadores | Faturamento 12M: R$ 1,23 Milhão · Pico Mensal (Páscoa): R$ 400.897,14 · DRE completo (após triagem): 12 meses |
-| Formulário do hero | Receba as informações da loja de R$ 210 mil / Preencha abaixo. Eu mesmo reviso as respostas e retorno com o próximo passo. / Quero informações da loja de R$ 210 mil → |
-| Card 1 | R$ 210 mil, contra cerca de R$ 350 mil de uma loja nova. Montar uma loja Cacau Show deste padrão custa por volta de R$ 350 mil, mais os meses até inaugurar. Esta já está montada, aprovada e vendendo. |
-| Card 2 | Páscoa: um terço do ano em um mês. R$ 400.897,14 faturados na Páscoa de 2026. É o pico da operação e o motivo de planejar o ano em torno dela. Quem assume já entra com esse calendário. |
-| Card 3 | Ponto e estrutura prontos. Loja de rua na Marambaia, com contrato de aluguel transferível, mobília, equipamentos e climatização. Nada para reformar. |
-| Card 4 | Loja aberta durante todo o repasse. A operação não para: continua vendendo enquanto a triagem, a aprovação da franqueadora e a transferência acontecem. Você assume com a loja funcionando. |
-| Por que estou repassando | Ver 3.2, mais: "O repasse é direto: sem placa de 'vende-se', sem corretor, sem terceiros no meio. Sou eu que respondo pelo processo do início ao fim, e a loja segue aberta e vendendo enquanto ele acontece." |
-| Pontos de confiança | A maior franquia do Brasil (ABF 2026, mais de 4.700 lojas) · Processo formal, não uma venda informal · Dados sensíveis só após triagem · Sem obra, sem montagem · Não prometo lucro em página pública |
-| Sazonalidade | A Páscoa concentra cerca de um terço do faturamento do ano. Card Páscoa (R$ 400.897,14) e card "Os outros 11 meses" (R$ 1,23 milhão em 12 meses, cerca de dois terços fora da Páscoa). |
-| Etapa 5 | Formalização e transição com a loja funcionando. O estoque do dia é acertado à parte, a preço de custo, e fico disponível para orientar nas primeiras semanas. |
-| FAQ: valor | O valor de repasse é R$ 210 mil. Para comparar: montar uma loja Cacau Show deste padrão custa por volta de R$ 350 mil, sem contar os meses até inaugurar. A forma de pagamento é tratada diretamente comigo na conversa de triagem. O estoque do dia da transferência é vendido à parte, a preço de custo. |
-| FAQ: incluso | O ponto comercial com contrato de aluguel transferível, a mobília, os equipamentos e a climatização, a transferência formal do contrato de franquia e o histórico de vendas da loja. O estoque é vendido à parte, a preço de custo. Os funcionários atuais estão na loja; manter a equipe é decisão de quem assume, não uma garantia minha. |
-| FAQ: lucro | Não em página pública. O que publico é faturamento. Margem, custos e resultado estão no DRE completo dos últimos 12 meses, que você recebe depois da triagem e do termo de confidencialidade. Prefiro que você decida com o número real na mão. |
-| Rodapé | Repasse direto do franqueado: loja Cacau Show em operação no bairro da Marambaia, em Belém/PA. Informações completas apenas após triagem e termo de confidencialidade. |
+| Title | Franquias Cacau Show à venda em Belém/PA \| Marambaia e Icoaraci |
+| Meta description | Sou franqueado Cacau Show e estou repassando diretamente duas lojas em operação em Belém/PA: Marambaia (R$ 210 mil) e Icoaraci (R$ 165 mil). DRE completo após triagem. |
+| Alternador de Unidades | Loja Marambaia (R$ 210 mil) \| Loja Icoaraci (R$ 165 mil) |
+| Dropdown de Oportunidade | Qualquer uma das duas (avaliar na conversa) \| Unidade Belém (Marambaia) — R$ 210.000 \| Unidade Belém (Icoaraci) — R$ 165.000 |
 
 ---
 
 ## 6. DNA do Instagram (perfil pessoal do franqueado)
 
-O perfil é seu, não da loja. Você fala como empresário que está repassando as próprias operações. A marca é dita abertamente. O sigilo que resta protege endereço exato, funcionários, clientes e números.
-
 ### Bio (até 150 caracteres)
-> Franqueado Cacau Show em Belém há 4 anos. Repassando minhas lojas, direto, sem intermediário. Disponível agora: Marambaia ↓
+> Franqueado Cacau Show há 4 anos em Belém.
+> Repassando 2 operações estruturadas:
+> 📍 Marambaia (R$ 210k) | 📍 Icoaraci (R$ 165k)
+> Triagem e DRE no link ↓
+
+Link da bio: `https://franquia-chocolates-belem.netlify.app/ig`
 
 Link da bio: `https://franquia-chocolates-belem.netlify.app/ig`
 
