@@ -189,6 +189,7 @@
   'https://connect.facebook.net/en_US/fbevents.js');
   fbq('init', '1125639163296575');
   fbq('track', 'PageView');
+  document.addEventListener('submit',function(e){if(e.target&&e.target.tagName==='FORM'){fbq('track','Lead');}},true);
   </script>
   <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=1125639163296575&ev=PageView&noscript=1"
