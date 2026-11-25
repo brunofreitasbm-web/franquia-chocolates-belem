@@ -47,3 +47,10 @@ form?.addEventListener("submit", (e) => {
       btn.textContent = "Quero receber os números";
     });
 });
+
+// Botão fixo no celular: aparece enquanto o formulário da hero está fora da tela.
+const sticky = document.getElementById("stickyCta");
+const formCard = document.getElementById("interesse");
+if (sticky && formCard && "IntersectionObserver" in window) {
+  new IntersectionObserver(([e]) => sticky.classList.toggle("show", !e.isIntersecting), { threshold: 0.05 }).observe(formCard);
+}
