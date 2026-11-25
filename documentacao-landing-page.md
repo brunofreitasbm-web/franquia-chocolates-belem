@@ -102,8 +102,8 @@ A headline nomeia o setor (chocolates e presentes) sem citar marca, já filtrand
 ### 4.2 Alternador de Unidades e Fichas
 
 A página possui um seletor no topo que permite ao interessado alternar dinamicamente entre as duas operações:
-- **Loja Marambaia (Belém/PA):** R$ 210.000 (Fat. 12M: R$ 1,23 Mi · Páscoa: R$ 400k)
-- **Loja Icoaraci (Belém/PA):** R$ 165.000 (Fat. 12M: R$ 756 Mil · Páscoa: R$ 270k · Crescimento YoY: +20% vendas / +215% lucro op. · Aluguel: R$ 3.000/mês)
+- **Loja Marambaia (Belém/PA):** R$ 200.000 (Fat. 12M: R$ 1,23 Mi · Páscoa: R$ 400k)
+- **Loja Icoaraci (Belém/PA):** R$ 158.000 (Fat. 12M: R$ 756 Mil · Páscoa: R$ 270k · Crescimento YoY: +20% vendas / +215% lucro op. · Aluguel: R$ 3.000/mês)
 
 Ao alternar a aba:
 - O título, badges e números do Hero são atualizados.
@@ -119,7 +119,7 @@ Processado por **Netlify Forms** (`data-netlify="true"`).
 
 | Campo | `name` | Obrigatório | Opções |
 |---|---|---|---|
-| Oportunidade | `oportunidade` | Sim | Qualquer uma das duas (avaliar na conversa) / Unidade Belém (Marambaia) — R$ 210.000 / Unidade Belém (Icoaraci) — R$ 165.000 |
+| Oportunidade | `oportunidade` | Sim | Qualquer uma das duas (avaliar na conversa) / Unidade Belém (Marambaia) — R$ 200.000 / Unidade Belém (Icoaraci) — R$ 158.000 |
 | Nome completo | `nome` | Sim | text |
 | Telefone / WhatsApp | `telefone` | Sim | tel |
 | E-mail | `email` | Sim | email |

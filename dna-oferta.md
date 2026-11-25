@@ -27,7 +27,7 @@ Uma frase. Sem adjetivo que não se prove.
 
 Versões curtas (título, bio, primeira linha de post):
 
-> Assuma uma loja Cacau Show que já vende em Belém: Marambaia (R$ 210 mil) ou Icoaraci (R$ 165 mil).
+> Assuma uma loja Cacau Show que já vende em Belém: Marambaia (R$ 200 mil) ou Icoaraci (R$ 158 mil).
 
 **Pode dizer:** já funciona, já vende, já tem histórico, sem obra, sem montagem, loja aberta durante todo o processo.
 **Não pode dizer:** dá lucro, retorno garantido, equipe treinada inclusa, estoque incluso, "inicia faturando imediatamente", "negócio pronto" sem qualificar o que está pronto.
@@ -67,7 +67,7 @@ Frase-chave:
 
 | Indicador | 🏬 Marambaia (Belém) | 🏬 Icoaraci (Belém) | Onde aparece |
 |---|---|---|---|
-| **Valor de repasse** | **R$ 210.000** | **R$ 165.000** | título, hero, cards, formulário |
+| **Valor de repasse** | **R$ 200.000** | **R$ 158.000** | título, hero, cards, formulário |
 | **Custo estimado loja nova (âncora)** | cerca de R$ 350 mil | cerca de R$ 250 mil | card 1, FAQ |
 | **Faturamento últimos 12 meses (LTM)** | **R$ 1,23 milhão** | **R$ 756 mil** (R$ 756.341,47) | hero, sazonalidade, meta description |
 | **Pico mensal (Páscoa 2026)** | **R$ 400.897,14** | **R$ 269.705,89** (Campanha R$ 385k) | hero, cards, sazonalidade |
@@ -103,9 +103,9 @@ Nada de lucro líquido, margem interna, folha ou royalties abertos antes da tria
 | Elemento | Texto |
 |---|---|
 | Title | Franquias Cacau Show à venda em Belém/PA \| Marambaia e Icoaraci |
-| Meta description | Sou franqueado Cacau Show e estou repassando diretamente duas lojas em operação em Belém/PA: Marambaia (R$ 210 mil) e Icoaraci (R$ 165 mil). DRE completo após triagem. |
-| Alternador de Unidades | Loja Marambaia (R$ 210 mil) \| Loja Icoaraci (R$ 165 mil) |
-| Dropdown de Oportunidade | Qualquer uma das duas (avaliar na conversa) \| Unidade Belém (Marambaia) — R$ 210.000 \| Unidade Belém (Icoaraci) — R$ 165.000 |
+| Meta description | Sou franqueado Cacau Show e estou repassando diretamente duas lojas em operação em Belém/PA: Marambaia (R$ 200 mil) e Icoaraci (R$ 158 mil). DRE completo após triagem. |
+| Alternador de Unidades | Loja Marambaia (R$ 200 mil) \| Loja Icoaraci (R$ 158 mil) |
+| Dropdown de Oportunidade | Qualquer uma das duas (avaliar na conversa) \| Unidade Belém (Marambaia) — R$ 200.000 \| Unidade Belém (Icoaraci) — R$ 158.000 |
 
 ---
 
@@ -114,7 +114,7 @@ Nada de lucro líquido, margem interna, folha ou royalties abertos antes da tria
 ### Bio (até 150 caracteres)
 > Franqueado Cacau Show há 4 anos em Belém.
 > Repassando 2 operações estruturadas:
-> 📍 Marambaia (R$ 210k) | 📍 Icoaraci (R$ 165k)
+> 📍 Marambaia (R$ 200k) | 📍 Icoaraci (R$ 158k)
 > Triagem e DRE no link ↓
 
 Link da bio: `https://franquia-chocolates-belem.netlify.app/ig`
