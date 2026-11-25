@@ -69,7 +69,7 @@ Basta abrir `index.html` no navegador, ou servir a pasta com qualquer servidor e
 Repositório conectado ao Netlify — todo push na branch `main` gera um novo deploy automaticamente.
 
 ## Link para a bio do Instagram
-Use **`https://franquia-chocolates-belem.netlify.app/ig`** como link da bio, em vez da URL longa com
+Use **`https://franquia-belem.netlify.app/ig`** como link da bio, em vez da URL longa com
 `utm_source`/`utm_medium`/`utm_content`. O redirecionamento em `netlify.toml` adiciona os parâmetros de
 rastreamento por trás dos panos, então o link que aparece ao colar ou repassar (WhatsApp, etc.) fica limpo.
 

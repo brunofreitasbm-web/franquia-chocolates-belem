@@ -9,7 +9,7 @@ Circuito de veículos elétricos infantis em shopping de grande porte em Belém,
 - Vendedor: FaçaAmigos, em primeira pessoa, sem intermediário.
 - Motivo da venda: foco nas outras frentes (Playgrounds, Clínica, Instituto).
 - Números públicos: R$ 14,7 mil/mês (média set a nov/2026, PDV), 8 veículos (4 pelúcias), ~3 meses de uso, horários, ~R$ 1,8 mil por veículo/mês.
-- Processo: interesse e NDA, documentos, visita, proposta e aprovação do shopping.
+- Processo: interesse e termo de sigilo, documentos, visita, proposta e aprovação do shopping.
 
 ## Pode dizer
 Já opera, já fatura (média de PDV), sem obra, procedimentos documentados, cessão sujeita à aprovação do shopping, marca própria do comprador.

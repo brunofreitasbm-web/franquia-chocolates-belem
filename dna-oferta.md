@@ -117,9 +117,9 @@ Nada de lucro líquido, margem interna, folha ou royalties abertos antes da tria
 > 📍 Marambaia (R$ 200k) | 📍 Icoaraci (R$ 158k)
 > Triagem e DRE no link ↓
 
-Link da bio: `https://franquia-chocolates-belem.netlify.app/ig`
+Link da bio: `https://franquia-belem.netlify.app/ig`
 
-Link da bio: `https://franquia-chocolates-belem.netlify.app/ig`
+Link da bio: `https://franquia-belem.netlify.app/ig`
 
 ### Destaques
 Por que vendo · A loja · Como funciona · Perguntas · Para quem é

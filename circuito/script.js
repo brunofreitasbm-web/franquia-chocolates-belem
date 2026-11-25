@@ -1,6 +1,6 @@
 // Preencher com o número oficial (somente dígitos, com DDI). Vazio = botão de WhatsApp fica oculto.
 const WHATSAPP_NUMBER = "";
-const WHATSAPP_MSG = "Olá! Vi a página do circuito infantil e quero receber os números sob NDA.";
+const WHATSAPP_MSG = "Olá! Vi a página do circuito infantil e quero receber os números sob termo de sigilo.";
 
 document.getElementById("year").textContent = new Date().getFullYear();
 

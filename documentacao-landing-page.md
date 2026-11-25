@@ -1,6 +1,6 @@
 # Documentação da Landing Page — Repasse de Duas Operações
 
-Documentação técnica e de conteúdo da página publicada em `franquia-chocolates-belem.netlify.app`.
+Documentação técnica e de conteúdo da página publicada em `franquia-belem.netlify.app`.
 
 > **Atenção — este repositório é público.** Esta documentação segue as mesmas regras de confidencialidade da própria página: nenhum endereço exato, código de loja ou dado financeiro reservado aparece aqui. A marca (Cacau Show) pode ser nomeada desde a revisão registrada em `dna-oferta.md`. Os dados completos das unidades ficam apenas nos documentos internos, fora deste repositório. Antes de commitar qualquer coisa aqui, confira que a regra continua valendo.
 
