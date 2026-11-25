@@ -75,3 +75,9 @@ rastreamento por trás dos panos, então o link que aparece ao colar ou repassar
 
 Isso não evita o `fbclid`/`_aem` que o próprio Instagram/Facebook anexa quando alguém abre o link de dentro
 do app deles — esse parâmetro é adicionado pelo Meta no momento do clique, não depende da URL de destino.
+
+## Página do circuito infantil (`/circuito/`)
+HTML estático puro em `circuito/` (sem bundle). Copy em `circuito/dna-oferta-circuito.md`. Formulário Netlify `circuito-triagem`
+(ative a notificação em Site settings → Forms). Link da bio: `/circuito-ig`. Tudo marcado `[PENDENTE]` na página deve ser preenchido
+antes de divulgar: divisão da frota, tabela "Montar do zero x assumir", condições de pagamento, equipe, contatos (`WHATSAPP_NUMBER` em
+`circuito/script.js`), fotos em `circuito/images/` e Meta Pixel próprio.

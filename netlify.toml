@@ -13,6 +13,19 @@
   status = 200
   force = true
 
+# Link curto da bio do Instagram para a página do circuito (mesmo padrão de /ig)
+[[redirects]]
+  from = "/circuito-ig"
+  to = "/circuito/?utm_source=ig&utm_medium=social&utm_content=link_in_bio"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/circuito/dna-oferta-circuito.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
 # Arquivos de trabalho que o publish = "." deixaria públicos e indexáveis:
 # rascunho do template (duplicata da página), documentação/estratégia e ferramentas.
 # Respondem 404 para o buscador tirá-los do índice.
