@@ -18,4 +18,6 @@ Já opera, já fatura (média de PDV), sem obra, procedimentos documentados, ces
 Lucro, payback ou retorno garantido; "imediato" sem a ressalva da aprovação do shopping; equipe incluída sem confirmação; qualquer serviço de aniversário; meia-entrada no Circuito; nome do shopping; aluguel e custos do ponto.
 
 ## Pendências
-Divisão dos 4 veículos não pelúcia; valores e prazos reais de montagem em 2026 (tabela "Montar do zero x assumir"); condições de pagamento; transferência da equipe; WhatsApp e e-mail; fotos reais sem personagens, logo ou fachada do shopping; pixel Meta próprio.
+Divisão dos 4 veículos não pelúcia; condições de pagamento; transferência da equipe; WhatsApp e e-mail; fotos reais sem personagens, logo ou fachada do shopping; pixel Meta próprio.
+
+Decisão: a seção "Montar do zero x assumir" foi retirada. Com 3 meses de uso, o custo de reposição não sustenta o preço e o comprador faria a conta contra a gente.

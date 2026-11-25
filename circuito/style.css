@@ -72,10 +72,6 @@ ul.ticks.no li::before{content:"\2715";color:var(--rosa)}
 .gallery .cap h3{margin-bottom:.4em}
 .gallery .cap p{color:var(--ink-soft);margin:0}
 
-/* Comparativo */
-.avoid{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
-.avoid li{display:grid;grid-template-columns:1fr auto;gap:16px;padding:16px 0;border-bottom:1px solid var(--line)}
-.avoid li span{color:var(--turq);font-weight:700;text-align:right}
 
 /* Processo em linha */
 .steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:28px;grid-template-columns:repeat(4,1fr);position:relative}
@@ -118,7 +114,7 @@ footer b{color:var(--white)}
   .steps li::before{position:absolute;left:0;top:0;margin:0}
   .steps li:not(:last-child)::after{top:44px;left:19px;right:auto;width:2px;height:calc(100% - 22px)}
 }
-@media (max-width:520px){header.top b{font-size:.9rem}.avoid li{grid-template-columns:1fr}.avoid li span{text-align:left}}
+@media (max-width:520px){header.top b{font-size:.9rem}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
 [hidden]{display:none!important}
 .hero .form-card .note{color:var(--ink-soft)}
