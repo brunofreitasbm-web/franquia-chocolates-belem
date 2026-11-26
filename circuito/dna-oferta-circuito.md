@@ -23,3 +23,5 @@ WhatsApp; fotos reais sem personagens, logo ou fachada do shopping; pixel Meta p
 Decisão: a seção "Montar do zero x assumir" foi retirada. Com 3 meses de uso, o custo de reposição não sustenta o preço e o comprador faria a conta contra a gente.
 
 Equipe: 2 funcionárias em escala 12x36, transferência incluída. Contato público: institutofacaamigos@gmail.com (sem telefone). Informações da operação só são enviadas depois do preenchimento do formulário.
+
+Equipamentos do quiosque (incluídos): marcenaria, tela de LED de 50 polegadas, impressora de cupom não fiscal, notebook Core i5, câmeras de monitoramento, carregador rápido e 10 baterias extras.

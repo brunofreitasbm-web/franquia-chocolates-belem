@@ -10,7 +10,7 @@ Ele fica em um shopping na Av. Augusto Montenegro, em Belém, e já opera: R$ 14
 
 O que você assume:
 ✓ 9 veículos elétricos e acessórios
-✓ Estrutura da pista e equipamentos
+✓ Quiosque com marcenaria, tela de LED de 50 polegadas, impressora de cupom não fiscal, notebook Core i5, câmeras de monitoramento, carregador rápido e 10 baterias extras
 ✓ Equipe atual: 2 funcionárias treinadas
 ✓ Procedimentos documentados
 ✓ Cessão do contrato com o shopping, sujeita à aprovação dele
