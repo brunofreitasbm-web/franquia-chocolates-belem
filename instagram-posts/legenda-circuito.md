@@ -1,16 +1,16 @@
-# Legenda: carrossel do repasse do circuito
+# Legenda: carrossel do repasse do quiosque
 
 Postar as 4 imagens `circuito-post-1.png` a `circuito-post-4.png`, nessa ordem (1080x1350, formato 4:5).
 
 ## Legenda (copiar e colar)
 
-Estou repassando o circuito de veículos elétricos infantis da FaçaAmigos.
+Estou repassando o quiosque de veículos elétricos infantis da FaçaAmigos.
 
 Ele fica em um shopping na Av. Augusto Montenegro, em Belém, e já opera: R$ 14,7 mil de faturamento médio por mês (média de set a nov/2026, dados do PDV).
 
 O que você assume:
 ✓ 9 veículos elétricos e acessórios
-✓ Quiosque com marcenaria, tela de LED de 50 polegadas, impressora de cupom não fiscal, notebook Core i5, câmeras de monitoramento, carregador rápido e 10 baterias extras
+✓ Marcenaria do quiosque, tela de LED de 50 polegadas, impressora de cupom não fiscal, notebook Core i5, câmeras de monitoramento, carregador rápido e 10 baterias extras
 ✓ Equipe atual: 2 funcionárias treinadas
 ✓ Procedimentos documentados
 ✓ Cessão do contrato com o shopping, sujeita à aprovação dele
@@ -23,7 +23,7 @@ Faturamento é receita bruta e média histórica, não lucro nem garantia de res
 
 Quer ver os números? Preencha o formulário no link da bio.
 
-#circuitoinfantil #oportunidadedenegocio #empreendedorismo #belemdopara #carrinhoeletrico
+#quiosqueinfantil #oportunidadedenegocio #empreendedorismo #belemdopara #carrinhoeletrico
 
 ## Link da bio
 
@@ -33,6 +33,6 @@ https://franquia-belem.netlify.app/circuito-ig
 
 ## Antes de postar
 
-- O link da bio só funciona depois do merge do PR do circuito.
+- O link da bio só funciona depois do merge do PR do quiosque.
 - Os slides citam apenas a avenida. Não escreva o nome do shopping nos comentários.
-- Não coloque a etiqueta de preço do circuito (R$ 48) nos stories ou nos comentários, para não revelar o ticket médio.
+- Não coloque a etiqueta de preço do quiosque (R$ 48) nos stories ou nos comentários, para não revelar o ticket médio.
