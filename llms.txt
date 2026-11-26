@@ -15,4 +15,4 @@
 - Idioma: português (pt-BR).
 
 ## Páginas
-- [Página principal](https://franquia-chocolates-belem.netlify.app/): oportunidade, sazonalidade, como funciona, FAQ e formulário de triagem.
+- [Página principal](https://franquia-belem.netlify.app/): oportunidade, sazonalidade, como funciona, FAQ e formulário de triagem.

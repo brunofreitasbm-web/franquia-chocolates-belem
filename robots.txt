@@ -26,4 +26,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://franquia-chocolates-belem.netlify.app/sitemap.xml
+Sitemap: https://franquia-belem.netlify.app/sitemap.xml
