@@ -3,7 +3,7 @@
 Fonte única da copy de `circuito/index.html`. Repositório público: a página cita só a Av. Augusto Montenegro; o nome do shopping, o endereço exato, o aluguel, o lucro e dados internos só depois do termo de sigilo.
 
 ## Promessa
-Circuito de veículos elétricos infantis em shopping na Av. Augusto Montenegro, em Belém, já operando. Valor de venda R$ 80.000 (valor agregado: sem obra, marcenaria, importação ou serviço de terceiros). Fechada a cessão pelo shopping, o comprador assume no dia seguinte.
+Circuito de veículos elétricos infantis em shopping na Av. Augusto Montenegro, em Belém, já operando. Valor de venda R$ 75.000 (valor agregado da operação). Fechada a cessão pelo shopping, o comprador assume no dia seguinte.
 
 ## Confiança
 - Vendedor: FaçaAmigos, em primeira pessoa, sem intermediário.
@@ -12,7 +12,7 @@ Circuito de veículos elétricos infantis em shopping na Av. Augusto Montenegro,
 - Processo: interesse e termo de sigilo, documentos, visita, proposta e aprovação do shopping.
 
 ## Pode dizer
-Já opera, já fatura (média de PDV), sem obra, procedimentos documentados, cessão sujeita à aprovação do shopping, marca própria do comprador.
+Já opera, já fatura (média de PDV), procedimentos documentados, cessão sujeita à aprovação do shopping, marca própria do comprador.
 
 ## Não pode dizer
 Lucro, payback ou retorno garantido; "imediato" sem a ressalva da aprovação do shopping; equipe incluída sem confirmação; qualquer serviço de aniversário; meia-entrada no Circuito; nome do shopping; aluguel e custos do ponto.
