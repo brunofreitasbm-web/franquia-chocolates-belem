@@ -18,7 +18,7 @@ Já opera, já fatura (média de PDV), procedimentos documentados, cessão sujei
 Lucro, payback ou retorno garantido; "imediato" sem a ressalva da aprovação do shopping; equipe incluída sem confirmação; qualquer serviço de aniversário; meia-entrada no Circuito; nome do shopping; aluguel e custos do ponto.
 
 ## Pendências
-condições de pagamento; WhatsApp; fotos reais sem personagens, logo ou fachada do shopping; pixel Meta próprio.
+WhatsApp; fotos reais sem personagens, logo ou fachada do shopping; pixel Meta próprio.
 
 Decisão: a seção "Montar do zero x assumir" foi retirada. Com 3 meses de uso, o custo de reposição não sustenta o preço e o comprador faria a conta contra a gente.
 

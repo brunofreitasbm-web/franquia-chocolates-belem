@@ -106,7 +106,7 @@ footer b{color:var(--white)}
   .cols>div+div{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:32px}
   .gallery{grid-template-columns:1fr 1fr}
   .gallery .p{grid-column:span 1}
-  .gallery .p:nth-of-type(3){grid-column:span 2;aspect-ratio:4/3}
+  .gallery .p3{grid-column:span 2;aspect-ratio:4/3}
   .gallery .w{grid-column:span 2}
   .gallery .cap{grid-column:span 2}
   .steps{grid-template-columns:1fr;gap:22px}
